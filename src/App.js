@@ -5,7 +5,7 @@ class App extends Component {
   render () {
     return (
       <div>
-        <h1>Austin Asbury</h1>
+        <h1 className="title">Austin Asbury</h1>
       </div>
     )
   }
