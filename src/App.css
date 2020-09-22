@@ -38,6 +38,13 @@
 }
 
 .title {
+  box-sizing: border-box;
+  margin-top: 0px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  padding: 1.5em;
+  margin-bottom: 2em;
+  background-color: #5F9EA0;
+  color: #fff;
 }
