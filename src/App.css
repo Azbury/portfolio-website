@@ -37,14 +37,27 @@
   }
 }
 
-.title {
+.header {
   box-sizing: border-box;
   margin-top: 0px;
   width: 100%;
-  display: flex;
   justify-content: center;
   padding: 1.5em;
   margin-bottom: 2em;
   background-color: #2F4F4F;
   color: #fff;
+}
+
+.home {
+  display: inline-block;
+  padding: 1em;
+}
+
+.about {
+  display: inline-block;
+  padding: 1em;
+}
+
+.projects {
+  display: inline-block
 }

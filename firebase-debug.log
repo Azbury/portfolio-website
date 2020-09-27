@@ -1,0 +1,35 @@
+[debug] [2020-09-22T21:43:57.601Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T21:43:57.603Z] Command:       /home/azbury/.nvm/versions/node/v14.6.0/bin/node /home/azbury/.nvm/versions/node/v14.6.0/bin/firebase init
+[debug] [2020-09-22T21:43:57.603Z] CLI Version:   8.10.0
+[debug] [2020-09-22T21:43:57.603Z] Platform:      linux
+[debug] [2020-09-22T21:43:57.603Z] Node Version:  v14.6.0
+[debug] [2020-09-22T21:43:57.604Z] Time:          Tue Sep 22 2020 17:43:57 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-09-22T21:43:57.604Z] ----------------------------------------------------------------------
+[debug] [2020-09-22T21:43:57.604Z] 
+[debug] [2020-09-22T21:43:57.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-22T21:43:57.610Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /mnt/c/Users/acasb/dev/portfolio-website/portfolio-website
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2020-09-23T03:50:22.862Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:75:28)
+    at Interface._setRawMode (readline.js:298:16)
+    at Interface.close (readline.js:421:10)
+    at ReadStream.ontermend (readline.js:209:10)
+    at ReadStream.emit (events.js:326:22)
+    at ReadStream.EventEmitter.emit (domain.js:486:12)
+    at endReadableNT (_stream_readable.js:1244:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
