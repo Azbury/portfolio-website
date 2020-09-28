@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './App.css'
 import AboutMe from './components/AboutMe'
 import Header from './components/Header'
+import Skills from './components/Skills'
 
 class App extends Component {
     render () {
@@ -9,6 +10,7 @@ class App extends Component {
           <div className="App">
               <Header/>
               <AboutMe/>
+              <Skills/>
           </div>
         )
     }
