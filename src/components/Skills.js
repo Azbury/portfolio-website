@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class Skills extends Component {
     render() {
         return (
-            <div className="languages">
+            <div className="skills">
                 <h2>Skills</h2>
                 <ul>
                     <li>Ruby</li>
