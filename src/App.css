@@ -48,6 +48,17 @@
   color: #fff;
 }
 
+.footer {
+  box-sizing: border-box;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+  padding: .15em;
+  background-color: #2F4F4F;
+  color: #fff;
+}
+
 .navbar-link {
   display: inline-block;
   padding: 1em;
