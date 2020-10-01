@@ -78,3 +78,12 @@
   height: 250px;
   width: 200px;
 }
+
+.skills {
+  text-align: center;
+}
+
+.skills ul li{
+  display: inline;
+  padding-right: 1em;
+}
