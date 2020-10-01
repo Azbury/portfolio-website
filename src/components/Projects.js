@@ -11,6 +11,7 @@ class Projects extends Component {
                 <h3>Creeper Aim Practice</h3>
                 <ReactPlayer className="video" url="https://www.youtube.com/watch?v=SiYIpxfAwmU"/>
                 <h3>Home Remedy Website</h3>
+                <ReactPlayer className="video" url="https://www.youtube.com/watch?v=x-FUyiKhJHE"/>
                 <h3>Online Marketplace Listings</h3>
                 <h3>Top 10 Hiking Spots in PA CLI</h3>
             </div>
