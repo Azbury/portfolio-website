@@ -87,3 +87,9 @@
   display: inline;
   padding-right: 1em;
 }
+
+.video {
+  display: block; 
+	width: auto; 
+	margin: 0 auto;  
+}
