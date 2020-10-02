@@ -15,6 +15,7 @@ class Projects extends Component {
                 <h3>Online Marketplace Listings</h3>
                 <ReactPlayer className="video" url="https://www.youtube.com/watch?v=-tfIOoW3AjQ"/>
                 <h3>Top 10 Hiking Spots in PA CLI</h3>
+                <ReactPlayer className="video" url="https://www.youtube.com/watch?v=WrHwM3LK9sE"/>
             </div>
         )
     }
