@@ -5,8 +5,10 @@ class Footer extends Component {
         return (
             <div className="footer">
                 <h1>Contact Info</h1>
-                <h2>Phone Number: 5706241138</h2>
-                <h2>Email: acasbury25@aol.com</h2>
+                <ul>
+                    <li>570-624-1138</li>
+                    <li>acasbury25@aol.com</li>
+                </ul>
             </div>
         )
     }

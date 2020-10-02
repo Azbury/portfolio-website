@@ -64,6 +64,15 @@
   padding-right: 3em;
 }
 
+.footer {
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline;
+  padding-right: 1em;
+}
+
 .name {
   font-size: 8em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
