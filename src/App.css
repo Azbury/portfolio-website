@@ -82,18 +82,33 @@
   text-align: left;
   border-radius: 8px;
   border-style: solid;
-  width: 40%;
-  padding-bottom: 150px;
-  margin-left: 100px;
+  border-color: black;
+  width: 45%;
+  padding-bottom: 75px;
+  margin-left: 75px;
   margin-top: 75px;
+  background-color: white;
+}
+
+.about-me-description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.about-me-title {
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 55px;
 }
 
 .profile-pic {
   float: left;
-  padding-left: 10px;
-  padding-top: 80px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
   height: 300px;
-  width: 325px;
+  width: 225px;
 }
 
 .skills {

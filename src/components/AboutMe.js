@@ -5,6 +5,7 @@ class AboutMe extends Component {
     render() {
         return (
             <div className="about-me">
+                <div className="about-me-title">About Myself</div>
                 <div className="pic">
                     <img className="profile-pic" src={ProfilePic} alt={'profile pic'}/>
                 </div>
