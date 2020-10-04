@@ -84,10 +84,13 @@
   border-style: solid;
   width: 40%;
   padding-bottom: 150px;
+  margin-left: 100px;
+  margin-top: 75px;
 }
 
 .profile-pic {
   float: left;
+  padding-left: 10px;
   height: 200px;
   width: 150px;
 }
