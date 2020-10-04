@@ -78,14 +78,18 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.about-me-description {
-  padding-left: 20em;
-  padding-right: 20em;
+.about-me {
+  text-align: left;
+  border-radius: 8px;
+  border-style: solid;
+  width: 40%;
+  padding-bottom: 150px;
 }
 
 .profile-pic {
-  height: 250px;
-  width: 200px;
+  float: left;
+  height: 200px;
+  width: 150px;
 }
 
 .skills {
