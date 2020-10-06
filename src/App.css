@@ -86,9 +86,10 @@
   border-color: black;
   width: 45%;
   padding-bottom: 75px;
-  margin-left: 75px;
+  margin-left: 50px;
   margin-top: 75px;
   background-color: white;
+  margin-right: 35px;
 }
 
 .about-me-description {
@@ -113,8 +114,9 @@
 }
 
 .slideshow {
-  padding-top: 200px;
+  padding-top: 65px;
   padding-bottom: 200px;
+  padding-right: 50px;
 }
 
 .skills {
@@ -130,4 +132,9 @@
   display: block; 
 	width: auto; 
 	margin: 0 auto;  
+}
+
+.flatiron-cert {
+  height: 500px;
+  width: 700px;
 }

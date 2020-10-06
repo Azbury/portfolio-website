@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ProfilePic from '../pictures/About-Me-Pic.JPG'
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
-import Flatiron from '../pictures/flatironschool.png'
+import FlatironCert from '../pictures/FlatironCert.jpg'
 
 class AboutMe extends Component {
     render() {
@@ -28,7 +28,7 @@ class AboutMe extends Component {
                         <Slide autoplay={false}>
                             <div className="each-slide">
                                 <div>
-                                    <img src={Flatiron} alt={'flatiron'}></img>
+                                    <img className="flatiron-cert" src={FlatironCert} alt={'flatiron'}></img>
                                 </div>
                             </div>
                             <div className="each-slide">
