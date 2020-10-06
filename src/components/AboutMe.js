@@ -3,6 +3,8 @@ import ProfilePic from '../pictures/About-Me-Pic.JPG'
 import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import FlatironCert from '../pictures/FlatironCert.jpg'
+import MarylandLogo from '../pictures/UMD-Black.png'
+import Harrisburg from '../pictures/harrisburg.jpg'
 
 class AboutMe extends Component {
     render() {
@@ -28,12 +30,17 @@ class AboutMe extends Component {
                         <Slide autoplay={false}>
                             <div className="each-slide">
                                 <div>
-                                    <img className="flatiron-cert" src={FlatironCert} alt={'flatiron'}></img>
+                                    <img className="slide" src={FlatironCert} alt={'flatiron'}/>
                                 </div>
                             </div>
                             <div className="each-slide">
                                 <div>
-                                    <span>Slide 2</span>
+                                    <img className="slide" src={MarylandLogo} alt={'maryland'}/>
+                                </div>
+                            </div>
+                            <div className="each-slide">
+                                <div>
+                                    <img className="slide" src={Harrisburg} alt={'harrisburg'}/>
                                 </div>
                             </div>
                         </Slide>
