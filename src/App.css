@@ -112,6 +112,11 @@
   width: 225px;
 }
 
+.slideshow {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .skills {
   text-align: center;
 }

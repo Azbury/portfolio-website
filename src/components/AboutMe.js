@@ -23,19 +23,21 @@ class AboutMe extends Component {
                         </p>
                     </div>
                 </div>
-                <div className="slide-container">
-                    <Slide autoplay={false}>
-                        <div className="each-slide">
-                            <div style={{'backgroundImage': `url(${Flatiron})`, 'height': '50px'}}>
-                                <span>Slide 1</span>
+                <div className="slideshow">
+                    <div className="slide-container">
+                        <Slide autoplay={false}>
+                            <div className="each-slide">
+                                <div>
+                                    <img src={Flatiron} alt={'flatiron'}></img>
+                                </div>
                             </div>
-                        </div>
-                        <div className="each-slide">
-                            <div>
-                                <span>Slide 2</span>
+                            <div className="each-slide">
+                                <div>
+                                    <span>Slide 2</span>
+                                </div>
                             </div>
-                        </div>
-                    </Slide>
+                        </Slide>
+                    </div>
                 </div>
             </div>
         )
