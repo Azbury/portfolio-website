@@ -78,7 +78,8 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.about-me {
+.about-myself-box {
+  float: left;
   text-align: left;
   border-radius: 8px;
   border-style: solid;
