@@ -4,7 +4,7 @@ class Skills extends Component {
     render() {
         return (
             <div className="skills">
-                <h2>Skills</h2>
+                <h2 className="skills-title">Skills</h2>
                 <ul>
                     <li>Ruby</li>
                     <li>Ruby on Rails</li>

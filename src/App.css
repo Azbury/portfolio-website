@@ -115,7 +115,6 @@
 
 .slideshow {
   padding-top: 75px;
-  padding-bottom: 200px;
   padding-right: 50px;
 }
 
@@ -126,6 +125,10 @@
 .skills ul li{
   display: inline;
   padding-right: 1em;
+}
+
+.skills-title {
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .video {
