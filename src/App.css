@@ -122,13 +122,12 @@
   text-align: center;
 }
 
-.skills ul li{
-  display: inline;
-  padding-right: 1em;
-}
-
 .skills-title {
   font-family: "Lucida Console", Monaco, monospace;
+}
+
+.skills-list {
+  display: inline;
 }
 
 .video {
@@ -142,10 +141,9 @@
   width: 800px;
 }
 
-.ruby {
-  height: 75px;
-  width: 100px;
-  font-size: 0;
+.skills-list .ruby-btn {
+  display: inline;
+  margin-right: 10px;
 }
 
 
