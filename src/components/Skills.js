@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import Ruby from '../pictures/ruby-programming-language.png'
+import { AwesomeButton } from "react-awesome-button";
+import "../theme-ruby.css";
 
 class Skills extends Component {
     render() {
@@ -7,7 +8,7 @@ class Skills extends Component {
             <div className="skills">
                 <h2 className="skills-title">Skills</h2>
                 <ul>
-                    <button><img className="ruby" src={Ruby} alt="ruby" onClick={this.myfunction} /></button>
+                    <AwesomeButton type="primary" size="large">Ruby</AwesomeButton>
                     <li>Ruby on Rails</li>
                     <li>Java</li>
                     <li>JavaScript</li>

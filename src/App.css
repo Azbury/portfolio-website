@@ -145,6 +145,8 @@
 .ruby {
   height: 75px;
   width: 100px;
-  object-fit: cover;
-  border: 5px solid black;
+  font-size: 0;
 }
+
+
+
