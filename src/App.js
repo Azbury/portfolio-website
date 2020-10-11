@@ -3,8 +3,8 @@ import './App.css'
 import AboutMe from './components/AboutMe'
 import Header from './components/Header'
 import Projects from './components/Projects'
-import Skills from './components/Skills'
 import Footer from './components/Footer'
+import SkillsContainer from './containers/SkillsContainer'
 
 class App extends Component {
     render () {
@@ -12,7 +12,7 @@ class App extends Component {
           <div className="App">
               <Header/>
               <AboutMe/>
-              <Skills/>
+              <SkillsContainer/>
               <Projects/>
               <Footer/>
           </div>

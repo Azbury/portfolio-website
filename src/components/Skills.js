@@ -11,7 +11,9 @@ class Skills extends Component {
                         <div className="ruby-btn">
                             <AwesomeButton className="button" type="primary">Ruby</AwesomeButton>
                         </div>
-                        <AwesomeButton type="primary">Ruby on Rails</AwesomeButton>
+                        <div className="rails-btn">
+                            <AwesomeButton type="primary">Ruby on Rails</AwesomeButton>
+                        </div>
                         <AwesomeButton type="primary">React</AwesomeButton>
                         <div>JavaScript</div>
                         <div>HTML</div>
