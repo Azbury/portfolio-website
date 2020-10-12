@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import "react-awesome-button/dist/themes/theme-red.css"
 import RailsButton from '../components/RailsButton'
 import RubyButton from '../components/RubyButton'
 import ReactButton from '../components/ReactButton'

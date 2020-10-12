@@ -146,5 +146,9 @@
   margin-right: 10px;
 }
 
+.aws-btn {
+  --button-primary-color: red;
+}
+
 
 
