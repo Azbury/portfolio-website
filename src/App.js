@@ -4,7 +4,7 @@ import AboutMe from './components/AboutMe'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import SkillsContainer from './containers/SkillsContainer'
+import Skills from './components/Skills'
 
 class App extends Component {
     render () {
@@ -12,7 +12,7 @@ class App extends Component {
           <div className="App">
               <Header/>
               <AboutMe/>
-              <SkillsContainer/>
+              <Skills/>
               <Projects/>
               <Footer/>
           </div>

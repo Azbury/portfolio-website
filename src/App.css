@@ -142,13 +142,9 @@
 }
 
 .skills-list .ruby-btn {
-  display: inline;
-  margin-right: 10px;
+  float: left;
 }
 
-.aws-btn {
-  --button-primary-color: red;
-}
 
 
 
