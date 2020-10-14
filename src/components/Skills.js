@@ -8,10 +8,10 @@ class Skills extends Component {
                 <h2 className="skills-title">Skills</h2>
                     <div className="skills-list">
                         <div className="ruby-btn">
-                            <MyComponent width={200}>Ruby</MyComponent>
+                            <MyComponent colors={["#B22222" , "#8B0000"]} width={200}>Ruby</MyComponent>
                         </div>
                         <div className="rails-btn">
-                            <MyComponent width={200}>Ruby on Rails</MyComponent>
+                            <MyComponent colors={["#B22222" , "#8B0000"]} width={200}>Ruby on Rails</MyComponent>
                         </div>
                         <div className="react-btn">
                             <MyComponent width={200}>React</MyComponent>
