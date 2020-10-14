@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return (
             <div className="projects">
-                <h2>Projects</h2>
+                <h2 className="projects-title">Projects</h2>
                 <h3>IQ Card Memory Game</h3>
                 <ReactPlayer className="video" url="https://www.youtube.com/watch?v=FtUPbcKe2Eg"/>
                 <h3>Creeper Aim Practice</h3>
