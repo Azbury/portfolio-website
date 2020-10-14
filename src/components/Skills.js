@@ -14,16 +14,16 @@ class Skills extends Component {
                             <MyComponent colors={["#B22222" , "#8B0000"]} width={200}>Ruby on Rails</MyComponent>
                         </div>
                         <div className="react-btn">
-                            <MyComponent width={200}>React</MyComponent>
+                            <MyComponent colors={["#00CED1" , "#00BFFF"]} width={200} textColor={"black"}>React</MyComponent>
                         </div>
                         <div className="javascript-btn">
-                            <MyComponent width={200}>Javascript</MyComponent>
+                            <MyComponent colors={["#FFD700" , "#DAA520"]} width={200} textColor={"black"}>Javascript</MyComponent>
                         </div>
                         <div className="html-btn">
-                            <MyComponent width={200}>HTML</MyComponent>
+                            <MyComponent colors={["#FF4500" , "#FFA500"]}width={200}>HTML</MyComponent>
                         </div>
                         <div className="css">
-                            <MyComponent width={200}>CSS</MyComponent>
+                            <MyComponent colors={["#000080" , "#191970"]}width={200}>CSS</MyComponent>
                         </div>
                     </div>
             </div>
