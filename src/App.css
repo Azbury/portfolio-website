@@ -53,8 +53,8 @@
   width: 100%;
   justify-content: center;
   padding: .15em;
-  background-color: #2F4F4F;
   color: #fff;
+  background-image: url('./pictures/header.jpg');
 }
 
 .navbar-link {
