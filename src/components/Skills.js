@@ -11,19 +11,19 @@ class Skills extends Component {
                             <MyComponent width={200}>Ruby</MyComponent>
                         </div>
                         <div className="rails-btn">
-                            <MyComponent width={"15%"}>Ruby on Rails</MyComponent>
+                            <MyComponent width={200}>Ruby on Rails</MyComponent>
                         </div>
                         <div className="react-btn">
-                            <MyComponent>React</MyComponent>
+                            <MyComponent width={200}>React</MyComponent>
                         </div>
                         <div className="javascript-btn">
-                            <MyComponent>Javascript</MyComponent>
+                            <MyComponent width={200}>Javascript</MyComponent>
                         </div>
                         <div className="html-btn">
-                            <MyComponent>HTML</MyComponent>
+                            <MyComponent width={200}>HTML</MyComponent>
                         </div>
                         <div className="css">
-                            <MyComponent>CSS</MyComponent>
+                            <MyComponent width={200}>CSS</MyComponent>
                         </div>
                     </div>
             </div>

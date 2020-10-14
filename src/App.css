@@ -143,6 +143,28 @@
 
 .skills-list .ruby-btn {
   float: left;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.skills-list .rails-btn {
+  float: left;
+  margin-right: 100px;
+}
+
+.skills-list .react-btn {
+  float: left;
+  margin-right: 100px;
+}
+
+.skills-list .javascript-btn {
+  float: left;
+  margin-right: 100px;
+}
+
+.skills-list .html-btn {
+  float: left;
+  margin-right: 100px;
 }
 
 
