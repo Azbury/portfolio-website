@@ -170,6 +170,21 @@
   font-family: "Lucida Console", Monaco, monospace;
 }
 
+.iq-card-memory-game {
+  float: left;
+}
+
+.aim-game {
+  float: right;
+}
+
+.first-two-projects {
+  display: inline;
+}
+
+.second-two-projects {
+  clear: both;
+}
 
 
 
