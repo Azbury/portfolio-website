@@ -54,6 +54,7 @@
   justify-content: center;
   padding: .15em;
   background-image: url('./pictures/header.jpg');
+  clear: both;
 }
 
 .navbar-link {
@@ -61,10 +62,6 @@
   font-family: "Lucida Console", Monaco, monospace;
   padding-left: 3em;
   padding-right: 3em;
-}
-
-.footer {
-  text-align: center;
 }
 
 .footer ul li {
@@ -183,6 +180,19 @@
 }
 
 .second-two-projects {
+  display: inline;
+  clear: both;
+}
+
+.home-remedy-website {
+  float: left;
+}
+
+.online-marketplace-listings {
+  float: right;
+}
+
+.hiking-spots {
   clear: both;
 }
 

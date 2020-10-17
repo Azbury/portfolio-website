@@ -26,8 +26,10 @@ class Projects extends Component {
                         <ReactPlayer className="video" url="https://www.youtube.com/watch?v=-tfIOoW3AjQ"/>
                     </div>
                 </div>
-                <h3>Top 10 Hiking Spots in PA CLI</h3>
-                <ReactPlayer className="video" url="https://www.youtube.com/watch?v=WrHwM3LK9sE"/>
+                <div className="hiking-spots">
+                    <h3>Top 10 Hiking Spots in PA CLI</h3>
+                    <ReactPlayer className="video" url="https://www.youtube.com/watch?v=WrHwM3LK9sE"/>
+                </div>
             </div>
         )
     }
