@@ -169,10 +169,12 @@
 
 .iq-card-memory-game {
   float: left;
+  margin-left: 175px;
 }
 
 .aim-game {
   float: right;
+  margin-right: 175px;
 }
 
 .first-two-projects {
@@ -186,10 +188,12 @@
 
 .home-remedy-website {
   float: left;
+  margin-left: 175px;
 }
 
 .online-marketplace-listings {
   float: right;
+  margin-right: 175px;
 }
 
 .hiking-spots {
