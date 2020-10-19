@@ -169,7 +169,11 @@
 
 .iq-card-memory-game {
   float: left;
-  margin-left: 175px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: white;
+  width: 45%;
+  margin-left: 50px;
 }
 
 .aim-game {
