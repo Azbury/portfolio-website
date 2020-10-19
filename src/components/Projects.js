@@ -20,6 +20,10 @@ class Projects extends Component {
                     <div className="aim-game">
                         <h3>Creeper Aim Practice</h3>
                         <ReactPlayer className="video" url="https://www.youtube.com/watch?v=SiYIpxfAwmU"/>
+                        <p>This is a game built using JavaScript, HTML, CSS, with a Ruby on Rails API for the backend. 
+                           The game allows a user to enter a username and then start a new game where they click on creepers 
+                           to gain points and practice their aim for shooting video games. The program will keep track of their 
+                           scores and will display their top 5 score to them in order.</p>
                     </div>
                 </div>
                 <div className="second-two-projects">
