@@ -50,9 +50,13 @@ class Projects extends Component {
                         </p>
                     </div>
                 </div>
+                <div className="empty"></div>
                 <div className="hiking-spots">
                     <h3>Top 10 Hiking Spots in PA CLI</h3>
                     <ReactPlayer className="video" url="https://www.youtube.com/watch?v=WrHwM3LK9sE"/>
+                    <p>
+                        This Ruby Program provides a CLI to view the top 10 hiking spots in PA from the website onlyinyourstate based on article from 2015.
+                    </p>
                 </div>
             </div>
         )

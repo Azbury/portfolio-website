@@ -226,10 +226,22 @@
   margin-top: 50px;
 }
 
-.hiking-spots {
+.empty {
   clear: both;
+}
+
+.hiking-spots {
+  text-align: center;
   margin-bottom: 50px;
-  padding-top: 25px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: white;
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 50px;
 }
 
 
