@@ -202,12 +202,28 @@
 
 .home-remedy-website {
   float: left;
-  margin-left: 175px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: white;
+  width: 45%;
+  margin-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-top: 50px;
 }
 
 .online-marketplace-listings {
   float: right;
-  margin-right: 175px;
+  border-style: solid;
+  border-radius: 8px;
+  background-color: white;
+  width: 45%;
+  margin-left: 50px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-right: 50px;
+  padding-bottom: 45px;
+  margin-top: 50px;
 }
 
 .hiking-spots {
