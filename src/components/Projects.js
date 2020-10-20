@@ -47,6 +47,9 @@ class Projects extends Component {
                             of all remedies, post their own home remedies for everyone to see, and comment on others post
                             to let them know how they work.
                         </p>
+                        <div className="github-btn">
+                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                        </div>
                     </div>
                     <div className="online-marketplace-listings">
                         <h3>Online Marketplace Listings</h3>
@@ -55,6 +58,9 @@ class Projects extends Component {
                             This Ruby Program creates a website that allows you to signup for an account and login/ signout. 
                             A user can then view the listings of all users, make/ modify their own listings, and views other user's accounts.
                         </p>
+                        <div className="github-btn">
+                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                        </div>
                     </div>
                 </div>
                 <div className="empty"></div>
@@ -64,6 +70,9 @@ class Projects extends Component {
                     <p>
                         This Ruby Program provides a CLI to view the top 10 hiking spots in PA from the website onlyinyourstate based on article from 2015.
                     </p>
+                    <div className="github-btn">
+                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                    </div>
                 </div>
             </div>
         )
