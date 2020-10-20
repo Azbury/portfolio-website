@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import ReactPlayer from "react-player"
+import MyComponent from "react-lite-button"
 
 class Projects extends Component {
     render() {
@@ -18,6 +19,9 @@ class Projects extends Component {
                             of cards and then they have to flip them over and match them from their memory. A user 
                             gains 10 points for every correct answer, and loses 10 points for every wrong answer.
                         </p>
+                        <div className="github-btn">
+                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                        </div>
                     </div>
                     <div className="aim-game">
                         <h3>Creeper Aim Practice</h3>
@@ -28,6 +32,9 @@ class Projects extends Component {
                             to gain points and practice their aim for shooting video games. The program will keep track of their 
                             scores and will display their top 5 score to them in order.
                         </p>
+                        <div className="github-btn">
+                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                        </div>
                     </div>
                 </div>
                 <div className="second-two-projects">
