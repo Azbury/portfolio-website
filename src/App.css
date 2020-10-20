@@ -55,6 +55,8 @@
   padding: .15em;
   background-image: url('./pictures/header.jpg');
   clear: both;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 
 .navbar-link {
