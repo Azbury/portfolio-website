@@ -3,6 +3,12 @@ import ReactPlayer from "react-player"
 import MyComponent from "react-lite-button"
 
 class Projects extends Component {
+
+    handleIQClick(e) {
+        e.preventDefault()
+        window.open('https://github.com/Azbury/iq-card-memory-game', "_blank")
+    }
+
     render() {
         return (
             <div className="projects">
@@ -20,7 +26,7 @@ class Projects extends Component {
                             gains 10 points for every correct answer, and loses 10 points for every wrong answer.
                         </p>
                         <div className="github-btn">
-                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                            <MyComponent onClick={(event) => this.handleIQClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
                         </div>
                     </div>
                     <div className="aim-game">
