@@ -19,6 +19,16 @@ class Projects extends Component {
         window.open('https://github.com/Azbury/home-remedy-website', "_blank")
     }
 
+    handleMarketClick(e) {
+        e.preventDefault()
+        window.open('https://github.com/Azbury/online-marketplace-listings', "_blank")
+    }
+
+    handleCLIClick(e) {
+        e.preventDefault()
+        window.open('https://github.com/Azbury/Top-10-Hiking-Spots-In-PA-CLI', "_blank")
+    }
+
     render() {
         return (
             <div className="projects">
@@ -75,7 +85,7 @@ class Projects extends Component {
                             A user can then view the listings of all users, make/ modify their own listings, and views other user's accounts.
                         </p>
                         <div className="github-btn">
-                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                            <MyComponent onClick={(event) => this.handleMarketClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
                         </div>
                     </div>
                 </div>
@@ -87,7 +97,7 @@ class Projects extends Component {
                         This Ruby Program provides a CLI to view the top 10 hiking spots in PA from the website onlyinyourstate based on article from 2015.
                     </p>
                     <div className="github-btn">
-                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                            <MyComponent onClick={(event) => this.handleCLIClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
                     </div>
                 </div>
             </div>
