@@ -255,4 +255,25 @@
   padding-bottom: 25px;
 }
 
+.footer-github-btn {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 50px;
+  width: 10%;
+  padding-bottom: 10px;
+}
+
+.footer-linkedin-btn {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  padding-bottom: 10px;
+}
+
+
+
+
+
 
