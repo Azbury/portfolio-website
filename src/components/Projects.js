@@ -9,6 +9,11 @@ class Projects extends Component {
         window.open('https://github.com/Azbury/iq-card-memory-game', "_blank")
     }
 
+    handleAimClick(e) {
+        e.preventDefault()
+        window.open('https://github.com/Azbury/aim-practice-game', "_blank")
+    }
+
     render() {
         return (
             <div className="projects">
@@ -39,7 +44,7 @@ class Projects extends Component {
                             scores and will display their top 5 score to them in order.
                         </p>
                         <div className="github-btn">
-                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                            <MyComponent onClick={(event) => this.handleAimClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
                         </div>
                     </div>
                 </div>
