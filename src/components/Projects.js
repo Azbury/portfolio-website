@@ -14,6 +14,11 @@ class Projects extends Component {
         window.open('https://github.com/Azbury/aim-practice-game', "_blank")
     }
 
+    handleRemedyClick(e) {
+        e.preventDefault()
+        window.open('https://github.com/Azbury/home-remedy-website', "_blank")
+    }
+
     render() {
         return (
             <div className="projects">
@@ -59,7 +64,7 @@ class Projects extends Component {
                             to let them know how they work.
                         </p>
                         <div className="github-btn">
-                            <MyComponent colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                            <MyComponent onClick={(event) => this.handleRemedyClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
                         </div>
                     </div>
                     <div className="online-marketplace-listings">
