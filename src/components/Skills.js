@@ -5,7 +5,8 @@ class Skills extends Component {
 
     state = {
         hideRubyProjects: true,
-        hideRailsProjects: true
+        hideRailsProjects: true,
+        hideReactProjects: true
     }
 
     handleRubyClick(e) {
@@ -16,6 +17,11 @@ class Skills extends Component {
     handleRailsClick(e) {
         e.preventDefault()
         this.setState({hideRailsProjects: !this.state.hideRailsProjects})
+    }
+
+    handleReactClick(e) {
+        e.preventDefault()
+        this.setState({hideReactProjects: !this.state.hideReactProjects})
     }
 
     render() {
@@ -32,7 +38,8 @@ class Skills extends Component {
                             <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="react-btn">
-                            <MyComponent colors={["#00CED1" , "#00BFFF"]} width={200} textColor={"black"}>React</MyComponent>
+                            <MyComponent onClick={(event) => this.handleReactClick(event)} colors={["#00CED1" , "#00BFFF"]} width={200} textColor={"black"}>React</MyComponent>
+                            <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="javascript-btn">
                             <MyComponent colors={["#FFD700" , "#DAA520"]} width={200} textColor={"black"}>Javascript</MyComponent>
