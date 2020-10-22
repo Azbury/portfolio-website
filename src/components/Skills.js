@@ -2,13 +2,24 @@ import React, { Component } from 'react'
 import MyComponent from "react-lite-button"
 
 class Skills extends Component {
+
+    state = {
+        hideRubyProjects: true
+    }
+
+    handleRubyClick(e) {
+        e.preventDefault()
+        this.setState({hideRubyProjects: !this.state.hideRubyProjects})
+    }
+
     render() {
         return (
             <div className="skills">
                 <h2 className="skills-title">Skills</h2>
                     <div className="skills-list">
                         <div className="ruby-btn">
-                            <MyComponent colors={["#B22222" , "#8B0000"]} width={200}>Ruby</MyComponent>
+                            <MyComponent onClick={(event) => this.handleRubyClick(event)} colors={["#B22222" , "#8B0000"]} width={200}>Ruby</MyComponent>
+                            <p className={this.state.hideRubyProjects === true ? "hidden" : "ruby-projects"}></p>
                         </div>
                         <div className="rails-btn">
                             <MyComponent colors={["#B22222" , "#8B0000"]} width={200}>Ruby on Rails</MyComponent>
