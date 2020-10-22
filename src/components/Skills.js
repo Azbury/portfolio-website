@@ -4,12 +4,18 @@ import MyComponent from "react-lite-button"
 class Skills extends Component {
 
     state = {
-        hideRubyProjects: true
+        hideRubyProjects: true,
+        hideRailsProjects: true
     }
 
     handleRubyClick(e) {
         e.preventDefault()
         this.setState({hideRubyProjects: !this.state.hideRubyProjects})
+    }
+
+    handleRailsClick(e) {
+        e.preventDefault()
+        this.setState({hideRailsProjects: !this.state.hideRailsProjects})
     }
 
     render() {
@@ -19,10 +25,11 @@ class Skills extends Component {
                     <div className="skills-list">
                         <div className="ruby-btn">
                             <MyComponent onClick={(event) => this.handleRubyClick(event)} colors={["#B22222" , "#8B0000"]} width={200}>Ruby</MyComponent>
-                            <p className={this.state.hideRubyProjects === true ? "hidden" : "ruby-projects"}></p>
+                            <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="rails-btn">
-                            <MyComponent colors={["#B22222" , "#8B0000"]} width={200}>Ruby on Rails</MyComponent>
+                            <MyComponent onClick={(event) => this.handleRailsClick(event)} colors={["#B22222" , "#8B0000"]} width={200}>Ruby on Rails</MyComponent>
+                            <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="react-btn">
                             <MyComponent colors={["#00CED1" , "#00BFFF"]} width={200} textColor={"black"}>React</MyComponent>
