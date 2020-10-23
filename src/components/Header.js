@@ -9,9 +9,14 @@ class Header extends Component {
         })
     }
 
-    mouse() {
-        var el = document.getElementById("contact-info")
+    mouse(id) {
+        var el = document.getElementById(id)
         el.style.color = "red"
+    }
+
+    mouseOut(id) {
+        var el = document.getElementById(id)
+        el.style.color = "black"
     }
 
     render() {
@@ -22,7 +27,7 @@ class Header extends Component {
                 <h2 className="navbar-link">About Myself</h2>
                 <h2 className="navbar-link">Skills</h2>
                 <h2 className="navbar-link">Projects</h2>
-                <h2 onMouseEnter={() => this.mouse()} onClick={(event) => this.handleContactClick(event)} className="navbar-link" id={"contact-info"}>Contact Info</h2>
+                <h2 onMouseEnter={() => this.mouse("contact-info")} onMouseLeave={() => this.mouseOut("contact-info")} onClick={(event) => this.handleContactClick(event)} className="navbar-link" id={"contact-info"}>Contact Info</h2>
             </div>
         )
     }
