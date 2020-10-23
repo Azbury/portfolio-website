@@ -4,7 +4,9 @@ class Header extends Component {
 
     handleContactClick(e) {
         e.preventDefault()
-        this.props.footerScrollReference.current.scrollIntoView();
+        this.props.footerScrollReference.current.scrollIntoView({
+            behavior: "smooth"
+        })
     }
 
     render() {
