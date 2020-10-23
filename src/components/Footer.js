@@ -15,7 +15,7 @@ class Footer extends Component {
 
     render() {
         return (
-            <div className="footer">
+            <div ref={this.props.scrollReference} className="footer">
                 <h1>Contact Info</h1>
                 <ul>
                     <li>570-624-1138</li>

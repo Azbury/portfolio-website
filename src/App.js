@@ -7,14 +7,20 @@ import Footer from './components/Footer'
 import Skills from './components/Skills'
 
 class App extends Component {
+
+    constructor() {
+        super()
+        this.footerRef = React.createRef()
+    }
+
     render () {
         return (
           <div className="App">
-              <Header/>
+              <Header footerScrollReference={this.footerRef}/>
               <AboutMe/>
               <Skills/>
               <Projects/>
-              <Footer/>
+              <Footer scrollReference={this.footerRef}/>
           </div>
         )
     }
