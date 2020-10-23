@@ -8,7 +8,8 @@ class Skills extends Component {
         hideRailsProjects: true,
         hideReactProjects: true,
         hideJavaScriptProjects: true,
-        hideHTMLProjects: true
+        hideHTMLProjects: true,
+        hideCSSProjects: true
     }
 
     handleRubyClick(e) {
@@ -36,6 +37,11 @@ class Skills extends Component {
         this.setState({hideHTMLProjects: !this.state.hideHTMLProjects})
     }
 
+    handleCSSClick(e) {
+        e.preventDefault()
+        this.setState({hideCSSProjects: !this.state.hideCSSProjects})
+    }
+
     render() {
         return (
             <div className="skills">
@@ -58,11 +64,12 @@ class Skills extends Component {
                             <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="html-btn">
-                            <MyComponent onClick={(event) => this.handleHTMLClick(event)} colors={["#FF4500" , "#FFA500"]}width={200}>HTML</MyComponent>
+                            <MyComponent onClick={(event) => this.handleHTMLClick(event)} colors={["#FF4500" , "#FFA500"]} width={200}>HTML</MyComponent>
                             <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="css">
-                            <MyComponent colors={["#000080" , "#191970"]}width={200}>CSS</MyComponent>
+                            <MyComponent onClick={(event) => this.handleCSSClick(event)} colors={["#000080" , "#191970"]} width={200}>CSS</MyComponent>
+                            <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                     </div>
             </div>
