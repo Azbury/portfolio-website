@@ -173,63 +173,51 @@
 }
 
 .iq-card-memory-game {
-  float: left;
+  display: inline-block;
   border-style: solid;
   border-radius: 8px;
   background-color: white;
   width: 45%;
-  margin-left: 50px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
+  margin-right: 40px;
 }
 
 .aim-game {
-  float: right;
+  display: inline-block;
   border-style: solid;
   border-radius: 8px;
   background-color: white;
   width: 45%;
-  margin-left: 50px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  margin-right: 50px;
-  padding: 12px;
-}
-
-.first-two-projects {
-  display: inline;
-}
-
-.second-two-projects {
-  display: inline;
-  clear: both;
+  margin-left: 40px;
 }
 
 .home-remedy-website {
-  float: left;
+  display: inline-block;
   border-style: solid;
   border-radius: 8px;
   background-color: white;
   width: 45%;
-  margin-left: 50px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  margin-top: 50px;
+  margin-right: 40px;
 }
 
 .online-marketplace-listings {
-  float: right;
+  display: inline-block;
   border-style: solid;
   border-radius: 8px;
   background-color: white;
   width: 45%;
-  margin-left: 50px;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  margin-right: 50px;
-  padding-bottom: 45px;
+  margin-left: 40px;
+}
+
+.second-two-projects {
   margin-top: 50px;
-  padding-left: 20px;
 }
 
 .empty {

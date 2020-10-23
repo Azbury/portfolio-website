@@ -56,7 +56,8 @@ class Projects extends Component {
                             This is a game built using JavaScript, HTML, CSS, with a Ruby on Rails API for the backend. 
                             The game allows a user to enter a username and then start a new game where they click on creepers 
                             to gain points and practice their aim for shooting video games. The program will keep track of their 
-                            scores and will display their top 5 score to them in order.
+                            scores and will display their top 5 score to them in order. The user has one second click each creeper
+                            that appears on the screen before it dissapears.
                         </p>
                         <div className="github-btn">
                             <MyComponent onClick={(event) => this.handleAimClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
@@ -83,6 +84,8 @@ class Projects extends Component {
                         <p>
                             This Ruby Program creates a website that allows you to signup for an account and login/ signout. 
                             A user can then view the listings of all users, make/ modify their own listings, and views other user's accounts.
+                            A user can list items with a title, description, and a price for the other users of the website to view.
+                            A user passwords are encrypted using the has_secure_password method from ActiveRecord.
                         </p>
                         <div className="github-btn">
                             <MyComponent onClick={(event) => this.handleMarketClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
