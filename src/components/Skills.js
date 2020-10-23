@@ -67,7 +67,7 @@ class Skills extends Component {
                             <MyComponent onClick={(event) => this.handleHTMLClick(event)} colors={["#FF4500" , "#FFA500"]} width={200}>HTML</MyComponent>
                             <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
-                        <div className="css">
+                        <div className="css-btn">
                             <MyComponent onClick={(event) => this.handleCSSClick(event)} colors={["#000080" , "#191970"]} width={200}>CSS</MyComponent>
                             <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
                         </div>

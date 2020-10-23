@@ -140,29 +140,32 @@
 }
 
 .skills-list .ruby-btn {
-  float: left;
-  margin-left: 100px;
-  margin-right: 100px;
+  display: inline-block;
+  padding-right: 100px;
 }
 
 .skills-list .rails-btn {
-  float: left;
-  margin-right: 100px;
+  display: inline-block;
+  padding-right: 100px;
 }
 
 .skills-list .react-btn {
-  float: left;
-  margin-right: 100px;
+  display: inline-block;
+  padding-right: 100px;
 }
 
 .skills-list .javascript-btn {
-  float: left;
-  margin-right: 100px;
+  display: inline-block;
+  padding-right: 100px;
 }
 
 .skills-list .html-btn {
-  float: left;
-  margin-right: 100px;
+  display: inline-block;
+  padding-right: 100px;
+}
+
+.skills-list .css-btn {
+  display: inline-block;
 }
 
 .projects-title {
@@ -285,7 +288,7 @@
 .projects-list:before{
   content: "";
   position: absolute;
-  left: 60px;
+  left: 50px;
   top:-30px;
   border: solid 15px transparent;
   border-bottom-color: #FFF;
