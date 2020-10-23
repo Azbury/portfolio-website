@@ -23,11 +23,11 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="name">Austin Asbury</div>
-                <h2 onClick={(event) => this.handleHomeClick(event)}className="navbar-link">Home</h2>
-                <h2 className="navbar-link">About Myself</h2>
-                <h2 className="navbar-link">Skills</h2>
-                <h2 className="navbar-link">Projects</h2>
-                <h2 onMouseEnter={() => this.mouse("contact-info")} onMouseLeave={() => this.mouseOut("contact-info")} onClick={(event) => this.handleContactClick(event)} className="navbar-link" id={"contact-info"}>Contact Info</h2>
+                <button onClick={(event) => this.handleHomeClick(event)} className="navbar-button">Home</button>
+                <button className="navbar-button">About Myself</button>
+                <button className="navbar-button">Skills</button>
+                <button className="navbar-button">Projects</button>
+                <button className="navbar-button" onMouseEnter={() => this.mouse("contact-info")} onMouseLeave={() => this.mouseOut("contact-info")} onClick={(event) => this.handleContactClick(event)} id={"contact-info"}>Contact Info</button>
             </div>
         )
     }
