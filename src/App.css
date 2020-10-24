@@ -85,43 +85,44 @@
 }
 
 .about-myself-box {
-  float: left;
   text-align: left;
-  border-radius: 8px;
-  border-style: solid;
-  border-color: black;
-  width: 45%;
-  padding-bottom: 75px;
-  margin-left: 50px;
+  width: 100%;
   margin-top: 75px;
-  background-color: white;
-  margin-right: 35px;
+  margin-bottom: 75px;
 }
 
 .about-me-description {
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 25px;
+  margin-left: 4em;
+  margin-top: 1em;
+  line-height: 2;
 }
 
 .about-me-title {
-  padding-top: 20px;
-  text-align: center;
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 55px;
+  margin-left: 1em;
+  width: 50%;
+}
+
+.about-me-divider {
+  background-image: url('./pictures/about-me-background.png');
+  height: 100px;
 }
 
 .profile-pic {
-  float: left;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 20px;
-  height: 300px;
-  width: 225px;
+  float: right;
+  margin-left: 4em;
+  margin-right: 6em;
+  height: 375px;
+  width: 300px;
 }
 
 .slideshow {
   padding-top: 85px;
   padding-right: 50px;
+  clear: both;
 }
 
 .about-me {

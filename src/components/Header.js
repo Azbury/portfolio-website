@@ -11,7 +11,7 @@ class Header extends Component {
 
     mouse(id) {
         var el = document.getElementById(id)
-        el.style.color = "#228B22"
+        el.style.color = "#F08080"
     }
 
     mouseOut(id) {

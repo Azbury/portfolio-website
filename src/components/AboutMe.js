@@ -10,6 +10,7 @@ class AboutMe extends Component {
     render() {
         return (
             <div className="about-me">
+                <div className="about-me-divider"></div>
                 <div className="about-myself-box">
                     <div className="about-me-title">About Myself</div>
                     <div className="pic">
@@ -25,6 +26,7 @@ class AboutMe extends Component {
                         </p>
                     </div>
                 </div>
+                <div className="about-me-divider"></div>
                 <div className="slideshow">
                     <div className="slide-container">
                         <Slide autoplay={false}>
