@@ -9,7 +9,7 @@ import Harrisburg from '../pictures/harrisburg.jpg'
 class AboutMe extends Component {
     render() {
         return (
-            <div className="about-me">
+            <div ref={this.props.scrollReference} className="about-me">
                 <div className="about-me-divider"></div>
                 <div className="about-myself-box">
                     <div className="about-me-title">About Myself</div>

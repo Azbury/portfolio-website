@@ -38,14 +38,17 @@
 }
 
 .header {
-  box-sizing: border-box;
-  margin-top: 0px;
+  margin-bottom: 3.5em;
+}
+
+.navbar {
+  position: fixed;
   width: 100%;
-  justify-content: center;
-  padding: .15em;
-  margin-bottom: 2em;
-  background-image: url('./pictures/header.png');
-  color: #8B4513
+  background-image: url('./pictures/about-me-background.png');
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .footer {
@@ -70,7 +73,6 @@
   background: transparent;
   padding-left: 3em;
   padding-right: 3em;
-  margin-bottom: 1em;
   outline: none;
 }
 
@@ -80,8 +82,11 @@
 }
 
 .name {
+  padding-top: .25em;
+  color: #8B4513;
   font-size: 8em;
   font-family: "Courier New", Courier, monospace;
+  background-image: url('./pictures/header.png');
 }
 
 .about-myself-box {
