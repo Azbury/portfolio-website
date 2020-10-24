@@ -27,7 +27,14 @@ class Header extends Component {
                 <button className="navbar-button">About Myself</button>
                 <button className="navbar-button">Skills</button>
                 <button className="navbar-button">Projects</button>
-                <button className="navbar-button" onMouseEnter={() => this.mouse("contact-info")} onMouseLeave={() => this.mouseOut("contact-info")} onClick={(event) => this.handleContactClick(event)} id={"contact-info"}>Contact Info</button>
+                <button
+                    className="navbar-button" 
+                    onMouseEnter={() => this.mouse("contact-info")} 
+                    onMouseLeave={() => this.mouseOut("contact-info")} 
+                    onClick={(event) => this.handleContactClick(event)} 
+                    id={"contact-info"}>
+                    Contact Info
+                </button>
             </div>
         )
     }
