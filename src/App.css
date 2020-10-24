@@ -119,8 +119,12 @@
 }
 
 .slideshow {
-  padding-top: 75px;
+  padding-top: 85px;
   padding-right: 50px;
+}
+
+.about-me {
+  margin-bottom: 50px;
 }
 
 .skills {
@@ -142,8 +146,8 @@
 }
 
 .slide {
-  height: 475px;
-  width: 800px;
+  height: 450px;
+  width: 700px;
 }
 
 .skills-list .ruby-btn {
@@ -289,6 +293,37 @@
   border-bottom-color: #FFF;
 }
 
+.harrisburg-skyline {
+  background-image: url('./pictures/harrisburg-skyline.jpg');
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+}
+
+.typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+               blinkTextCursor 500ms steps(44) infinite normal;
+               position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 435%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    color: white;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
 
 
 
