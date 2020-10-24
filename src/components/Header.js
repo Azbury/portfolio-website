@@ -2,6 +2,11 @@ import React, { Component } from 'react'
 
 class Header extends Component {
 
+    constructor() {
+        super()
+        this.homeRef = React.createRef()
+    }
+
     handleContactClick(e) {
         e.preventDefault()
         this.props.footerScrollReference.current.scrollIntoView({
@@ -12,6 +17,13 @@ class Header extends Component {
     handleAboutMeClick(e) {
         e.preventDefault()
         this.props.aboutMeScrollReference.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+
+    handleHomeClick(e) {
+        e.preventDefault()
+        this.homeRef.current.scrollIntoView({
             behavior: "smooth"
         })
     }
@@ -33,7 +45,8 @@ class Header extends Component {
                     <button 
                         className="navbar-button"
                         onMouseEnter={() => this.mouse("home")} 
-                        onMouseLeave={() => this.mouseOut("home")} 
+                        onMouseLeave={() => this.mouseOut("home")}
+                        onClick={(event) => this.handleHomeClick(event)}
                         id={"home"}>
                         Home
                     </button>
@@ -68,7 +81,7 @@ class Header extends Component {
                         Contact Info
                     </button>
                 </div>
-                <div className="name">Austin Asbury</div>
+                <div ref={this.homeRef} className="name">Austin Asbury</div>
             </div>
         )
     }
