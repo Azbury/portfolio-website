@@ -11,7 +11,7 @@ class Header extends Component {
 
     mouse(id) {
         var el = document.getElementById(id)
-        el.style.color = "red"
+        el.style.color = "yellow"
     }
 
     mouseOut(id) {
@@ -23,14 +23,27 @@ class Header extends Component {
         return (
             <div className="header">
                 <div className="name">Austin Asbury</div>
-                <button onClick={(event) => this.handleHomeClick(event)} className="navbar-button">Home</button>
-                <button className="navbar-button">About Myself</button>
+                <button 
+                    className="navbar-button"
+                    onMouseEnter={() => this.mouse("home")} 
+                    onMouseLeave={() => this.mouseOut("home")} 
+                    id={"home"}>
+                    Home
+                </button>
+                <button 
+                    className="navbar-button"
+                    onMouseEnter={() => this.mouse("about-myself")} 
+                    onMouseLeave={() => this.mouseOut("about-myself")} 
+                    id={"about-myself"}>
+                    About Myself
+                </button>
                 <button 
                     className="navbar-button"
                     onMouseEnter={() => this.mouse("skills")} 
                     onMouseLeave={() => this.mouseOut("skills")} 
                     id={"skills"}>
-                    Skills</button>
+                    Skills
+                </button>
                 <button 
                     className="navbar-button"
                     onMouseEnter={() => this.mouse("projects")} 
