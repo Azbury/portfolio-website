@@ -13,16 +13,18 @@ class App extends Component {
         super()
         this.footerRef = React.createRef()
         this.aboutMeRef = React.createRef()
+        this.skillsRef = React.createRef()
+        this.projectsRef = React.createRef()
     }
 
     render () {
         return (
           <div className="App">
-              <Header footerScrollReference={this.footerRef} aboutMeScrollReference={this.aboutMeRef}/>
+              <Header footerScrollReference={this.footerRef} aboutMeScrollReference={this.aboutMeRef} skillsScrollReference={this.skillsRef} projectsScrollReference={this.projectsRef}/>
               <HarrisburgSkyline/>
               <AboutMe scrollReference={this.aboutMeRef}/>
-              <Skills/>
-              <Projects/>
+              <Skills scrollReference={this.skillsRef}/>
+              <Projects scrollReference={this.projectsRef}/>
               <Footer scrollReference={this.footerRef}/>
           </div>
         )

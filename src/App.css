@@ -131,20 +131,12 @@
   clear: both;
 }
 
-.about-me {
-  margin-bottom: 50px;
-}
-
 .skills {
   text-align: center;
 }
 
 .skills-title {
   font-family: "Lucida Console", Monaco, monospace;
-}
-
-.skills-list {
-  display: inline;
 }
 
 .video {

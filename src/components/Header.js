@@ -28,6 +28,20 @@ class Header extends Component {
         })
     }
 
+    handleSkillsClick(e) {
+        e.preventDefault()
+        this.props.skillsScrollReference.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+
+    handleProjectsClick(e) {
+        e.preventDefault()
+        this.props.projectsScrollReference.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+
     mouse(id) {
         var el = document.getElementById(id)
         el.style.color = "#F08080"
@@ -61,14 +75,16 @@ class Header extends Component {
                     <button 
                         className="navbar-button"
                         onMouseEnter={() => this.mouse("skills")} 
-                        onMouseLeave={() => this.mouseOut("skills")} 
+                        onMouseLeave={() => this.mouseOut("skills")}
+                        onClick={(event) => this.handleSkillsClick(event)}
                         id={"skills"}>
                         Skills
                     </button>
                     <button 
                         className="navbar-button"
                         onMouseEnter={() => this.mouse("projects")} 
-                        onMouseLeave={() => this.mouseOut("projects")} 
+                        onMouseLeave={() => this.mouseOut("projects")}
+                        onClick={(event) => this.handleProjectsClick(event)}
                         id={"projects"}>
                         Projects
                     </button>
