@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import MyComponent from "react-lite-button"
 import Ruby from "../pictures/ruby-programming-language.png"
+import Rails from "../pictures/rails.png"
 
 class Skills extends Component {
 
@@ -50,11 +51,11 @@ class Skills extends Component {
                 <h2 className="skills-title">Skills</h2>
                     <div className="skills-list">
                         <div className="ruby-btn">
-                            <button id={"ruby-btn"} onClick={(event) => this.handleRubyClick(event)}><img id={"ruby-img"} src={Ruby} alt={"ruby"}/></button>
+                            <button className={"skills-btn"} onClick={(event) => this.handleRubyClick(event)}><img className={"skills-img"} src={Ruby} alt={"ruby"}/></button>
                             <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="rails-btn">
-                            <MyComponent onClick={(event) => this.handleRailsClick(event)} colors={["#B22222" , "#8B0000"]} width={200}>Ruby on Rails</MyComponent>
+                            <button className={"skills-btn"} onClick={(event) => this.handleRailsClick(event)}><img className={"skills-img"} src={Rails} alt={"ruby"}/></button>
                             <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="react-btn">

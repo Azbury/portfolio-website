@@ -155,15 +155,14 @@
   padding-right: 100px;
 }
 
-#ruby-btn {
+.skills-btn {
   padding: 0px;
 }
 
-#ruby-img {
+.skills-img {
   display: block;
   height: 125px;
   width: auto;
-  size: small;
 }
 
 .skills-list .rails-btn {
