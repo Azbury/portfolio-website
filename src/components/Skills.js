@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
-import MyComponent from "react-lite-button"
 import Ruby from "../pictures/ruby-programming-language.png"
 import Rails from "../pictures/rails.png"
 import ReactPic from "../pictures/react.jpg"
+import JavaScript from "../pictures/javascript.png"
+import HTML from "../pictures/html.png"
+import CSS from "../pictures/css.jpg"
 
 class Skills extends Component {
 
@@ -64,15 +66,15 @@ class Skills extends Component {
                             <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="javascript-btn">
-                            <MyComponent onClick={(event) => this.handleJavaScriptClick(event)} colors={["#FFD700" , "#DAA520"]} width={200} textColor={"black"}>Javascript</MyComponent>
+                            <button className={"skills-btn"} onClick={(event) => this.handleJavaScriptClick(event)}><img className={"skills-img"} src={JavaScript} alt={"javascript"}/></button>
                             <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="html-btn">
-                            <MyComponent onClick={(event) => this.handleHTMLClick(event)} colors={["#FF4500" , "#FFA500"]} width={200}>HTML</MyComponent>
+                            <button className={"skills-btn"} onClick={(event) => this.handleHTMLClick(event)}><img className={"skills-img"} src={HTML} alt={"html"}/></button>
                             <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                         <div className="css-btn">
-                            <MyComponent onClick={(event) => this.handleCSSClick(event)} colors={["#000080" , "#191970"]} width={200}>CSS</MyComponent>
+                            <button className={"skills-btn"} onClick={(event) => this.handleCSSClick(event)}><img className={"skills-img"} src={CSS} alt={"css"}/></button>
                             <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                     </div>
