@@ -50,7 +50,7 @@ class Skills extends Component {
     render() {
         return (
             <div ref={this.props.scrollReference} className="skills">
-                <div className="about-me-divider"></div>
+                <div className="divider"></div>
                 <h2 className="skills-title">Skills</h2>
                     <div className="skills-list">
                         <div className="ruby-btn">
@@ -78,7 +78,7 @@ class Skills extends Component {
                             <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
                         </div>
                     </div>
-                    <div className="about-me-divider"></div>
+                    <div className="divider"></div>
             </div>
         )
     }

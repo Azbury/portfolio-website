@@ -32,7 +32,7 @@ class Projects extends Component {
     render() {
         return (
             <div ref={this.props.scrollReference} className="projects">
-                <div className="about-me-divider"></div>
+                <div className="divider"></div>
                 <h2 className="projects-title">Projects</h2>
                 <div className="first-two-projects">
                     <div className="iq-card-memory-game">

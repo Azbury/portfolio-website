@@ -45,7 +45,7 @@
   z-index: 1;
   position: fixed;
   width: 100%;
-  background-image: url('./pictures/about-me-background.png');
+  background-image: url('./pictures/divider.png');
   margin-top: 0px;
   margin-left: 0px;
   padding-top: 1em;
@@ -112,8 +112,8 @@
   width: 50%;
 }
 
-.about-me-divider {
-  background-image: url('./pictures/about-me-background.png');
+.divider {
+  background-image: url('./pictures/divider.png');
   height: 100px;
 }
 

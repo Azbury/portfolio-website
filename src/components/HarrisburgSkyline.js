@@ -7,7 +7,7 @@ class HarrisburgSkyline extends Component {
                 <div className="harrisburg-skyline">
                     <p className="typewriter">Hi, I'm a Full Stack Developer</p>
                 </div>
-                <div className="about-me-divider"></div>
+                <div className="divider"></div>
             </div>
         )
     }
