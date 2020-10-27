@@ -154,7 +154,7 @@
 
 .project-description {
   font-family: "Times New Roman", Times, serif;
-  font-size: 33px;
+  font-size: 26.4px;
   padding-right: 100px;
 }
 
@@ -186,6 +186,11 @@
 .projects-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
+}
+
+.project-title {
+  padding-right: 5%;
+  font-size: 30px;
 }
 
 .iq-card-memory-game {
