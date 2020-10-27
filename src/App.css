@@ -125,10 +125,9 @@
   width: auto;
 }
 
-.slideshow {
-  padding-top: 85px;
-  padding-right: 50px;
-  clear: both;
+.slideshow-container {
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .skills {
@@ -146,9 +145,21 @@
 }
 
 .video {
-  display: block; 
+  float: left;
 	width: auto; 
-	margin: 0 auto;  
+  margin: 0 auto;
+  padding-left: 100px; 
+  padding-right: 50px;
+}
+
+.project-description {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 33px;
+  padding-right: 100px;
+}
+
+.github-btn {
+  padding-left: 63%;
 }
 
 .slide {
@@ -173,6 +184,7 @@
 }
 
 .projects-title {
+  font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
@@ -240,14 +252,6 @@
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   margin-top: 50px;
-}
-
-.github-btn {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  padding-bottom: 25px;
 }
 
 .footer-github-btn {
