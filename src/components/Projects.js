@@ -65,6 +65,18 @@ class Projects extends Component {
                                 <MyComponent onClick={(event) => this.handleAimClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
                             </div>
                         </div>
+                        <div className="each-slide">
+                            <ReactPlayer className="video" url="https://www.youtube.com/watch?v=x-FUyiKhJHE"/>
+                            <p className="project-description">
+                                This Ruby on Rails Program creates a website that allows you to perform all user account features
+                                as well as sign in and make an account through GitHub OAuth. A user can then view the listings
+                                of all remedies, post their own home remedies for everyone to see, and comment on others post
+                                to let them know how they work.
+                            </p>
+                            <div className="github-btn">
+                                <MyComponent onClick={(event) => this.handleRemedyClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                            </div>
+                        </div>
                     </Slide>
                 </div>
                 <div className="first-two-projects">
