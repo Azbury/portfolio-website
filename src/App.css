@@ -150,9 +150,10 @@
   width: 700px;
 }
 
-.skills-list .ruby-btn {
+.skills-btn-divider {
   display: inline-block;
-  padding-right: 100px;
+  padding-left: 25px;
+  padding-right: 25px; 
 }
 
 .skills-btn {
@@ -161,32 +162,8 @@
 
 .skills-img {
   display: block;
-  height: 125px;
+  height: 150px;
   width: auto;
-}
-
-.skills-list .rails-btn {
-  display: inline-block;
-  padding-right: 100px;
-}
-
-.skills-list .react-btn {
-  display: inline-block;
-  padding-right: 100px;
-}
-
-.skills-list .javascript-btn {
-  display: inline-block;
-  padding-right: 100px;
-}
-
-.skills-list .html-btn {
-  display: inline-block;
-  padding-right: 100px;
-}
-
-.skills-list .css-btn {
-  display: inline-block;
 }
 
 .projects-title {
