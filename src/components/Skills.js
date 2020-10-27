@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Ruby from "../pictures/ruby-programming-language.png"
+import Ruby from "../pictures/ruby.jpg"
 import Rails from "../pictures/rails.png"
 import ReactPic from "../pictures/react.jpg"
 import JavaScript from "../pictures/javascript.png"
@@ -49,36 +49,38 @@ class Skills extends Component {
 
     render() {
         return (
-            <div ref={this.props.scrollReference} className="skills">
+            <div ref={this.props.scrollReference}>
                 <div className="divider"></div>
-                <h2 className="skills-title">Skills</h2>
-                    <div className="skills-list">
-                        <div className="skills-btn-divider">
-                            <button className={"skills-btn"} onClick={(event) => this.handleRubyClick(event)}><img className={"skills-img"} src={Ruby} alt={"ruby"}/></button>
-                            <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}></p>
+                <div className="skills">
+                    <h2 className="skills-title">Skills</h2>
+                        <div className="skills-list">
+                            <div className="skills-btn-divider">
+                                <button className={"skills-btn"} onClick={(event) => this.handleRubyClick(event)}><img className={"skills-img"} src={Ruby} alt={"ruby"}/></button>
+                                <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}></p>
+                            </div>
+                            <div className="skills-btn-divider">
+                                <button className={"skills-btn"} onClick={(event) => this.handleRailsClick(event)}><img className={"skills-img"} src={Rails} alt={"rails"}/></button>
+                                <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}></p>
+                            </div>
+                            <div className="skills-btn-divider">
+                                <button className={"skills-btn"} onClick={(event) => this.handleReactClick(event)}><img className={"skills-img"} src={ReactPic} alt={"react"}/></button>
+                                <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}></p>
+                            </div>
+                            <div className="skills-btn-divider">
+                                <button className={"skills-btn"} onClick={(event) => this.handleJavaScriptClick(event)}><img className={"skills-img"} src={JavaScript} alt={"javascript"}/></button>
+                                <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}></p>
+                            </div>
+                            <div className="skills-btn-divider">
+                                <button className={"skills-btn"} onClick={(event) => this.handleHTMLClick(event)}><img className={"skills-img"} src={HTML} alt={"html"}/></button>
+                                <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}></p>
+                            </div>
+                            <div className="skills-btn-divider">
+                                <button className={"skills-btn"} onClick={(event) => this.handleCSSClick(event)}><img className={"skills-img"} src={CSS} alt={"css"}/></button>
+                                <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
+                            </div>
                         </div>
-                        <div className="skills-btn-divider">
-                            <button className={"skills-btn"} onClick={(event) => this.handleRailsClick(event)}><img className={"skills-img"} src={Rails} alt={"rails"}/></button>
-                            <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}></p>
-                        </div>
-                        <div className="skills-btn-divider">
-                            <button className={"skills-btn"} onClick={(event) => this.handleReactClick(event)}><img className={"skills-img"} src={ReactPic} alt={"react"}/></button>
-                            <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}></p>
-                        </div>
-                        <div className="skills-btn-divider">
-                            <button className={"skills-btn"} onClick={(event) => this.handleJavaScriptClick(event)}><img className={"skills-img"} src={JavaScript} alt={"javascript"}/></button>
-                            <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}></p>
-                        </div>
-                        <div className="skills-btn-divider">
-                            <button className={"skills-btn"} onClick={(event) => this.handleHTMLClick(event)}><img className={"skills-img"} src={HTML} alt={"html"}/></button>
-                            <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}></p>
-                        </div>
-                        <div className="skills-btn-divider">
-                            <button className={"skills-btn"} onClick={(event) => this.handleCSSClick(event)}><img className={"skills-img"} src={CSS} alt={"css"}/></button>
-                            <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
-                        </div>
-                    </div>
-                    <div className="divider"></div>
+                        <div className="divider"></div>
+                </div>
             </div>
         )
     }

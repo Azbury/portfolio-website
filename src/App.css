@@ -133,9 +133,15 @@
 
 .skills {
   text-align: center;
+  margin-top: 100px;
+}
+
+.skills-list {
+  margin-bottom: 100px;
 }
 
 .skills-title {
+  font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
 }
 
@@ -152,8 +158,8 @@
 
 .skills-btn-divider {
   display: inline-block;
-  padding-left: 25px;
-  padding-right: 25px; 
+  padding-left: 50px;
+  padding-right: 50px; 
 }
 
 .skills-btn {
