@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import ReactPlayer from "react-player"
-import MyComponent from "react-lite-button"
-import { Slide } from 'react-slideshow-image';
+import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
+import GithubLogo from "../pictures/github-logo.jpg"
 
 class Projects extends Component {
 
@@ -50,7 +50,7 @@ class Projects extends Component {
                                 gains 10 points for every correct answer, and loses 10 points for every wrong answer.
                             </p>
                             <div className="github-btn">
-                                <MyComponent onClick={(event) => this.handleIQClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                                <button className={"skills-btn"} onClick={(event) => this.handleIQClick(event)}><img className={"github-logo-img"} src={GithubLogo} alt={"github"}/></button>
                             </div>
                         </div>
                         <div className="each-slide">
@@ -64,7 +64,7 @@ class Projects extends Component {
                                 that appears on the screen before it dissapears.
                             </p>
                             <div className="github-btn">
-                                <MyComponent onClick={(event) => this.handleAimClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                                <button className={"skills-btn"} onClick={(event) => this.handleAimClick(event)}><img className={"github-logo-img"} src={GithubLogo} alt={"github"}/></button>
                             </div>
                         </div>
                         <div className="each-slide">
@@ -77,7 +77,7 @@ class Projects extends Component {
                                 to let them know how they work.
                             </p>
                             <div className="github-btn">
-                                <MyComponent onClick={(event) => this.handleRemedyClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                                <button className={"skills-btn"} onClick={(event) => this.handleRemedyClick(event)}><img className={"github-logo-img"} src={GithubLogo} alt={"github"}/></button>
                             </div>
                         </div>
                         <div className="each-slide">
@@ -90,7 +90,7 @@ class Projects extends Component {
                                 A user passwords are encrypted using the has_secure_password method from ActiveRecord.
                             </p>
                             <div className="github-btn">
-                                <MyComponent onClick={(event) => this.handleMarketClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                                <button className={"skills-btn"} onClick={(event) => this.handleMarketClick(event)}><img className={"github-logo-img"} src={GithubLogo} alt={"github"}/></button>
                             </div>
                         </div>
                         <div className="each-slide">
@@ -100,7 +100,7 @@ class Projects extends Component {
                                 This Ruby Program provides a CLI to view the top 10 hiking spots in PA from the website onlyinyourstate based on article from 2015.
                             </p>
                             <div className="github-btn">
-                                <MyComponent onClick={(event) => this.handleCLIClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                                <button className={"skills-btn"} onClick={(event) => this.handleCLIClick(event)}><img className={"github-logo-img"} src={GithubLogo} alt={"github"}/></button>
                             </div>
                         </div>
                     </Slide>

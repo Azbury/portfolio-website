@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import MyComponent from "react-lite-button"
+import GithubLogo from "../pictures/github-small-logo.png"
+import LinkedIn from "../pictures/linkedin-logo.jpg"
 
 class Footer extends Component {
 
@@ -22,10 +23,10 @@ class Footer extends Component {
                     <li>acasbury25@aol.com</li>
                 </ul>
                 <div className="footer-github-btn">
-                    <MyComponent onClick={(event) => this.handleGithubClick(event)} colors={["#000000" , "#808080"]} width={200}>Github</MyComponent>
+                    <button className={"footer-btn"} onClick={(event) => this.handleGithubClick(event)}><img className={"footer-img"} src={GithubLogo} alt={"github"}/></button>
                 </div>
                 <div className="footer-linkedin-btn">
-                    <MyComponent onClick={(event) => this.handleLinkedInClick(event)} colors={["#00008B" , "#87CEFA"]} width={200}>LinkedIn</MyComponent>
+                    <button className={"footer-btn"} onClick={(event) => this.handleLinkedInClick(event)}><img className={"footer-img"} src={LinkedIn} alt={"github"}/></button>
                 </div>
             </div>
         )

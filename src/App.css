@@ -159,7 +159,13 @@
 }
 
 .github-btn {
-  padding-left: 63%;
+  padding-right: 5%;
+}
+
+.github-logo-img {
+  display: block;
+  height: 100px;
+  width: auto;
 }
 
 .slide {
@@ -193,70 +199,20 @@
   font-size: 30px;
 }
 
-.iq-card-memory-game {
-  display: inline-block;
-  border-style: solid;
-  border-radius: 8px;
-  background-color: white;
-  width: 45%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-right: 40px;
+.projects {
+  margin-bottom: 75px;
 }
 
-.aim-game {
-  display: inline-block;
-  border-style: solid;
-  border-radius: 8px;
-  background-color: white;
-  width: 45%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-left: 40px;
+.footer-img {
+  display: block;
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
 }
 
-.home-remedy-website {
-  display: inline-block;
-  border-style: solid;
-  border-radius: 8px;
-  background-color: white;
-  width: 45%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-right: 40px;
-}
-
-.online-marketplace-listings {
-  display: inline-block;
-  border-style: solid;
-  border-radius: 8px;
-  background-color: white;
-  width: 45%;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-left: 40px;
-}
-
-.second-two-projects {
-  margin-top: 50px;
-}
-
-.empty {
-  clear: both;
-}
-
-.hiking-spots {
-  text-align: center;
-  margin-bottom: 50px;
-  border-style: solid;
-  border-radius: 8px;
-  background-color: white;
-  width: 45%;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-top: 50px;
+.footer-btn {
+  padding: 0px;
+  border-radius: 50%;
 }
 
 .footer-github-btn {
@@ -274,6 +230,10 @@
   margin-right: auto;
   width: 10%;
   padding-bottom: 10px;
+}
+
+.footer ul li {
+  font-size: 30px;
 }
 
 .projects-list {
