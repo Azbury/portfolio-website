@@ -242,7 +242,7 @@
 
 .projects-list {
   position: absolute;
-  background: #FF8C00;
+  background: #FFA07A;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px; 
@@ -260,7 +260,7 @@
   left: 50px;
   top:-30px;
   border: solid 15px transparent;
-  border-bottom-color: #FF8C00;
+  border-bottom-color: #FFA07A;
 }
 
 .harrisburg-skyline {
