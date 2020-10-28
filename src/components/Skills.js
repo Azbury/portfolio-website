@@ -57,7 +57,7 @@ class Skills extends Component {
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleRubyClick(event)}><img className={"skills-img"} src={Ruby} alt={"ruby"}/></button>
                                 <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}>
-                                    <ul className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
+                                    <ul className={this.state.hideRubyProjects === true ? "hidden" : "skills-project-list"}>
                                         <li className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
                                             <a href="https://github.com/Azbury/Top-10-Hiking-Spots-In-PA-CLI" target="_blank">Top 10 Hiking Spots in PA CLI</a>
                                         </li>
@@ -69,19 +69,48 @@ class Skills extends Component {
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleRailsClick(event)}><img className={"skills-img"} src={Rails} alt={"rails"}/></button>
-                                <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}></p>
+                                <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}>
+                                    <ul className={this.state.hideRailsProjects === true ? "hidden" : "skills-project-list"}>
+                                        <li className={this.state.hideRailsProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/home-remedy-website" target="_blank">Home Remedy Website</a>
+                                        </li>
+                                        <li className={this.state.hideRailsProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank">Creeper Aim Practice</a>
+                                        </li>
+                                        <li className={this.state.hideRailsProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank">IQ Card Memory Game</a>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleReactClick(event)}><img className={"skills-img"} src={ReactPic} alt={"react"}/></button>
-                                <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}></p>
+                                <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}>
+                                    <ul className={this.state.hideReactProjects === true ? "hidden" : "skills-project-list"}>
+                                        <li className={this.state.hideReactProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank">IQ Card Memory Game</a>
+                                        </li>
+                                        <li className={this.state.hideReactProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/portfolio-website" target="_blank">Portfolio Website</a>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleJavaScriptClick(event)}><img className={"skills-img"} src={JavaScript} alt={"javascript"}/></button>
-                                <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}></p>
+                                <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}>
+                                    <ul className={this.state.hideJavaScriptProjects === true ? "hidden" : "skills-project-list"}>
+                                        <li className={this.state.hideJavaScriptProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank">Creeper Aim Practice</a>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleHTMLClick(event)}><img className={"skills-img"} src={HTML} alt={"html"}/></button>
-                                <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}></p>
+                                <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}>
+                                    <ul className=
+                                </p>
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleCSSClick(event)}><img className={"skills-img"} src={CSS} alt={"css"}/></button>

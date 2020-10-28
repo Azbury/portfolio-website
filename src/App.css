@@ -189,6 +189,10 @@
   width: auto;
 }
 
+.skills-project-list {
+  text-align: left;
+}
+
 .projects-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
