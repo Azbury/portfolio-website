@@ -56,7 +56,16 @@ class Skills extends Component {
                         <div className="skills-list">
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleRubyClick(event)}><img className={"skills-img"} src={Ruby} alt={"ruby"}/></button>
-                                <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}></p>
+                                <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}>
+                                    <ul className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
+                                        <li className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/Top-10-Hiking-Spots-In-PA-CLI" target="_blank">Top 10 Hiking Spots in PA CLI</a>
+                                        </li>
+                                        <li className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/online-marketplace-listings" target="_blank">Online Marketplace Listings</a>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleRailsClick(event)}><img className={"skills-img"} src={Rails} alt={"rails"}/></button>
