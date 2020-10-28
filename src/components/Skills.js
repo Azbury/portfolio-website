@@ -59,10 +59,10 @@ class Skills extends Component {
                                 <p className={this.state.hideRubyProjects === true ? "hidden" : "projects-list"}>
                                     <ul className={this.state.hideRubyProjects === true ? "hidden" : "skills-project-list"}>
                                         <li className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/Top-10-Hiking-Spots-In-PA-CLI" target="_blank">Top 10 Hiking Spots in PA CLI</a>
+                                            <a href="https://github.com/Azbury/Top-10-Hiking-Spots-In-PA-CLI" target="_blank" rel="noopener noreferrer">Top 10 Hiking Spots in PA CLI</a>
                                         </li>
                                         <li className={this.state.hideRubyProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/online-marketplace-listings" target="_blank">Online Marketplace Listings</a>
+                                            <a href="https://github.com/Azbury/online-marketplace-listings" target="_blank" rel="noopener noreferrer">Online Marketplace Listings</a>
                                         </li>
                                     </ul>
                                 </p>
@@ -72,13 +72,13 @@ class Skills extends Component {
                                 <p className={this.state.hideRailsProjects === true ? "hidden" : "projects-list"}>
                                     <ul className={this.state.hideRailsProjects === true ? "hidden" : "skills-project-list"}>
                                         <li className={this.state.hideRailsProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/home-remedy-website" target="_blank">Home Remedy Website</a>
+                                            <a href="https://github.com/Azbury/home-remedy-website" target="_blank" rel="noopener noreferrer">Home Remedy Website</a>
                                         </li>
                                         <li className={this.state.hideRailsProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank">Creeper Aim Practice</a>
+                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank" rel="noopener noreferrer">Creeper Aim Practice</a>
                                         </li>
                                         <li className={this.state.hideRailsProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank">IQ Card Memory Game</a>
+                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank" rel="noopener noreferrer">IQ Card Memory Game</a>
                                         </li>
                                     </ul>
                                 </p>
@@ -88,10 +88,10 @@ class Skills extends Component {
                                 <p className={this.state.hideReactProjects === true ? "hidden" : "projects-list"}>
                                     <ul className={this.state.hideReactProjects === true ? "hidden" : "skills-project-list"}>
                                         <li className={this.state.hideReactProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank">IQ Card Memory Game</a>
+                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank" rel="noopener noreferrer">IQ Card Memory Game</a>
                                         </li>
                                         <li className={this.state.hideReactProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/portfolio-website" target="_blank">Portfolio Website</a>
+                                            <a href="https://github.com/Azbury/portfolio-website" target="_blank" rel="noopener noreferrer">Portfolio Website</a>
                                         </li>
                                     </ul>
                                 </p>
@@ -101,7 +101,7 @@ class Skills extends Component {
                                 <p className={this.state.hideJavaScriptProjects === true ? "hidden" : "projects-list"}>
                                     <ul className={this.state.hideJavaScriptProjects === true ? "hidden" : "skills-project-list"}>
                                         <li className={this.state.hideJavaScriptProjects === true ? "hidden" : "none"}>
-                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank">Creeper Aim Practice</a>
+                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank" rel="noopener noreferrer">Creeper Aim Practice</a>
                                         </li>
                                     </ul>
                                 </p>
@@ -109,12 +109,34 @@ class Skills extends Component {
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleHTMLClick(event)}><img className={"skills-img"} src={HTML} alt={"html"}/></button>
                                 <p className={this.state.hideHTMLProjects === true ? "hidden" : "projects-list"}>
-                                    <ul className=
+                                    <ul className={this.state.hideHTMLProjects === true ? "hidden" : "skills-project-list"}>
+                                        <li className={this.state.hideHTMLProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank" rel="noopener noreferrer">Creeper Aim Practice</a>
+                                        </li>
+                                        <li className={this.state.hideHTMLProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/home-remedy-website" target="_blank" rel="noopener noreferrer">Home Remedy Website</a>
+                                        </li>
+                                        <li className={this.state.hideHTMLProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/online-marketplace-listings" target="_blank" rel="noopener noreferrer">Online Marketplace Listings</a>
+                                        </li>
+                                    </ul>
                                 </p>
                             </div>
                             <div className="skills-btn-divider">
                                 <button className={"skills-btn"} onClick={(event) => this.handleCSSClick(event)}><img className={"skills-img"} src={CSS} alt={"css"}/></button>
-                                <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}></p>
+                                <p className={this.state.hideCSSProjects === true ? "hidden" : "projects-list"}>
+                                    <ul className={this.state.hideCSSProjects === true ? "hidden" : "skills-project-list"}>
+                                        <li className={this.state.hideCSSProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/iq-card-memory-game" target="_blank" rel="noopener noreferrer">IQ Card Memory Game</a>
+                                        </li>
+                                        <li className={this.state.hideCSSProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/aim-practice-game" target="_blank" rel="noopener noreferrer">Creeper Aim Practice</a>
+                                        </li>
+                                        <li className={this.state.hideCSSProjects === true ? "hidden" : "none"}>
+                                            <a href="https://github.com/Azbury/portfolio-website" target="_blank" rel="noopener noreferrer">Portfolio Website</a>
+                                        </li>
+                                    </ul>
+                                </p>
                             </div>
                         </div>
                         <div className="divider"></div>
