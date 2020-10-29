@@ -194,6 +194,14 @@
   text-align: left;
 }
 
+.skills-btn:hover .skills-img {
+  box-shadow: 0 0 0 1px black;
+}
+
+.skills-btn:hover .github-logo-img {
+  box-shadow: 0 0 0 1px black;
+}
+
 .projects-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
@@ -235,6 +243,10 @@
   margin-right: auto;
   width: 10%;
   padding-bottom: 10px;
+}
+
+.footer-btn:hover .footer-img {
+  box-shadow: 0 0 0 3px black;
 }
 
 .footer ul li {
