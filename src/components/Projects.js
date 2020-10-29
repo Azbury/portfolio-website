@@ -39,7 +39,9 @@ class Projects extends Component {
                 <div className="slideshow-container">
                     <Slide autoplay={false}>
                         <div className="each-slide">
-                            <ReactPlayer className="video" url="https://www.youtube.com/watch?v=FtUPbcKe2Eg"/>
+                            <div className="video-wrapper">
+                                <ReactPlayer width="100%" height="100%" className="react-player" url="https://www.youtube.com/watch?v=FtUPbcKe2Eg"/>
+                            </div>
                             <h3 className="project-title">IQ Card Memory Game</h3>
                             <p className="project-description">
                                 This is a game built using React.js, HTML, CSS, with a Ruby on Rails API for the
@@ -54,7 +56,9 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className="each-slide">
-                            <ReactPlayer className="video" url="https://www.youtube.com/watch?v=SiYIpxfAwmU"/>
+                            <div className="video-wrapper">
+                                <ReactPlayer width="100%" height="100%" className="react-player" url="https://www.youtube.com/watch?v=SiYIpxfAwmU"/>
+                            </div>
                             <h3 className="project-title">Creeper Aim Practice</h3>
                             <p className="project-description">
                                 This is a game built using JavaScript, HTML, CSS, with a Ruby on Rails API for the backend. 
@@ -68,7 +72,9 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className="each-slide">
-                            <ReactPlayer className="video" url="https://www.youtube.com/watch?v=x-FUyiKhJHE"/>
+                            <div className="video-wrapper">
+                                <ReactPlayer width="100%" height="100%" className="react-player" url="https://www.youtube.com/watch?v=x-FUyiKhJHE"/>
+                            </div>
                             <h3 className="project-title">Home Remedy Website</h3>
                             <p className="project-description">
                                 This Ruby on Rails Program creates a website that allows you to perform all user account features
@@ -81,7 +87,9 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className="each-slide">
-                            <ReactPlayer className="video" url="https://www.youtube.com/watch?v=-tfIOoW3AjQ"/>
+                            <div className="video-wrapper">
+                                <ReactPlayer width="100%" height="100%" className="react-player" url="https://www.youtube.com/watch?v=-tfIOoW3AjQ"/>
+                            </div>
                             <h3 className="project-title">Online Marketplace Listings</h3>
                             <p className="project-description">
                                 This Ruby Program creates a website that allows you to signup for an account and login/ signout. 
@@ -94,7 +102,9 @@ class Projects extends Component {
                             </div>
                         </div>
                         <div className="each-slide">
-                            <ReactPlayer className="video" url="https://www.youtube.com/watch?v=WrHwM3LK9sE"/>
+                            <div className="video-wrapper">
+                                <ReactPlayer width="100%" height="100%" className="react-player" url="https://www.youtube.com/watch?v=WrHwM3LK9sE"/>
+                            </div>
                             <h3 className="project-title">Top 10 Hiking Spots in PA CLI</h3>
                             <p className="project-description">
                                 This Ruby Program provides a CLI to view the top 10 hiking spots in PA from the website onlyinyourstate based on article from 2015.
