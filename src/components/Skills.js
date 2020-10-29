@@ -11,6 +11,7 @@ import CSS from "../pictures/css.jpg"
 
 class Skills extends Component {
 
+    //state used to change the css class of the paragraphs under the buttons that are displayed when clicked
     state = {
         hideRubyProjects: true,
         hideRailsProjects: true,
@@ -20,31 +21,37 @@ class Skills extends Component {
         hideCSSProjects: true
     }
 
+    //will display ruby projects created when clicked
     handleRubyClick(e) {
         e.preventDefault()
         this.setState({hideRubyProjects: !this.state.hideRubyProjects})
     }
 
+    //will display rails projects created when clicked
     handleRailsClick(e) {
         e.preventDefault()
         this.setState({hideRailsProjects: !this.state.hideRailsProjects})
     }
 
+    //will display react projects created when clicked
     handleReactClick(e) {
         e.preventDefault()
         this.setState({hideReactProjects: !this.state.hideReactProjects})
     }
 
+    //will display javascript projects creacted when clicked
     handleJavaScriptClick(e) {
         e.preventDefault()
         this.setState({hideJavaScriptProjects: !this.state.hideJavaScriptProjects})
     }
 
+    //will display html projects created when clicked
     handleHTMLClick(e) {
         e.preventDefault()
         this.setState({hideHTMLProjects: !this.state.hideHTMLProjects})
     }
 
+    //will display css projects created when clicked
     handleCSSClick(e) {
         e.preventDefault()
         this.setState({hideCSSProjects: !this.state.hideCSSProjects})
@@ -52,6 +59,7 @@ class Skills extends Component {
 
     render() {
         return (
+            //scroll reference for the skill section
             <div ref={this.props.scrollReference}>
                 <div className="divider"></div>
                 <div className="skills">

@@ -9,6 +9,7 @@ import HarrisburgSkyline from './components/HarrisburgSkyline'
 
 class App extends Component {
 
+    //creates the references for different components to allow scrolling when clicking on the buttons on the header
     constructor() {
         super()
         this.footerRef = React.createRef()
