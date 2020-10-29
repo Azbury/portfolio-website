@@ -432,8 +432,7 @@
     position: relative;
     width: 300px;
     height: 176px;
-    margin-left: 40px;
-    margin-right: 0;
+    margin: auto;
   }
 
   .react-player {
@@ -472,5 +471,9 @@
     background-color: transparent;
     -webkit-appearance: none;
     border-radius: 0;
+  }
+
+  .github-btn {
+    padding-right: 0;
   }
 }
