@@ -1,12 +1,17 @@
 import React, { Component } from 'react'
 
+//Header
+//Component used for header section with a fixed position that will move down the page except for the name
+
 class Header extends Component {
 
+    //creating reference for scrolling to the top of the page
     constructor() {
         super()
         this.homeRef = React.createRef()
     }
 
+    //will scroll to contact section via click
     handleContactClick(e) {
         e.preventDefault()
         this.props.footerScrollReference.current.scrollIntoView({
@@ -14,6 +19,7 @@ class Header extends Component {
         })
     }
 
+    //will scroll to about me section via click
     handleAboutMeClick(e) {
         e.preventDefault()
         this.props.aboutMeScrollReference.current.scrollIntoView({
@@ -21,6 +27,7 @@ class Header extends Component {
         })
     }
 
+    //will scroll to top of the page via click
     handleHomeClick(e) {
         e.preventDefault()
         this.homeRef.current.scrollIntoView({
@@ -28,6 +35,7 @@ class Header extends Component {
         })
     }
 
+    //will scroll to the skills section via click
     handleSkillsClick(e) {
         e.preventDefault()
         this.props.skillsScrollReference.current.scrollIntoView({
@@ -35,6 +43,7 @@ class Header extends Component {
         })
     }
 
+    //will scroll to the projects section via click
     handleProjectsClick(e) {
         e.preventDefault()
         this.props.projectsScrollReference.current.scrollIntoView({
@@ -42,11 +51,13 @@ class Header extends Component {
         })
     }
 
+    //will change color of text when hovering over a button in the header
     mouse(id) {
         var el = document.getElementById(id)
         el.style.color = "#F08080"
     }
 
+    //will change color of text back to black when the mouse leaves the button
     mouseOut(id) {
         var el = document.getElementById(id)
         el.style.color = "black"

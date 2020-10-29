@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 import ProfilePic from '../pictures/About-Me-Pic.JPG'
 
+//AboutMe
+//Component used for the AboutMe section
+
 class AboutMe extends Component {
     render() {
         return (
+            //reference used for the header to allow scrolling to this section via click
             <div ref={this.props.scrollReference} className="about-me">
                 <div className="divider"></div>
                 <div className="about-myself-box">

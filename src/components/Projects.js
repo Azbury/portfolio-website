@@ -4,28 +4,36 @@ import { Slide } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import GithubLogo from "../pictures/github-logo.jpg"
 
+//Projects
+//Component used to display the projects in a slideshow
+
 class Projects extends Component {
 
+    //will take the user to github repository of the iq game via click
     handleIQClick(e) {
         e.preventDefault()
         window.open('https://github.com/Azbury/iq-card-memory-game', "_blank")
     }
 
+    //will take the user to github repository of the aim game via click
     handleAimClick(e) {
         e.preventDefault()
         window.open('https://github.com/Azbury/aim-practice-game', "_blank")
     }
 
+    //will take the user to github repository of the remedy webstie via click
     handleRemedyClick(e) {
         e.preventDefault()
         window.open('https://github.com/Azbury/home-remedy-website', "_blank")
     }
 
+    //will take the user to github repository of the market website via click
     handleMarketClick(e) {
         e.preventDefault()
         window.open('https://github.com/Azbury/online-marketplace-listings', "_blank")
     }
 
+    //will take the user to github repository of the cli program via click
     handleCLIClick(e) {
         e.preventDefault()
         window.open('https://github.com/Azbury/Top-10-Hiking-Spots-In-PA-CLI', "_blank")
@@ -33,6 +41,7 @@ class Projects extends Component {
 
     render() {
         return (
+            //scroll reference for the project sectiong
             <div ref={this.props.scrollReference} className="projects">
                 <div className="divider"></div>
                 <h2 className="projects-title">Projects</h2>

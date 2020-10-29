@@ -6,6 +6,9 @@ import JavaScript from "../pictures/javascript.png"
 import HTML from "../pictures/html.png"
 import CSS from "../pictures/css.jpg"
 
+//Skills
+//Component used for displaying the buttons of the skills I posses and list of the projects that use those skills
+
 class Skills extends Component {
 
     state = {

@@ -2,13 +2,18 @@ import React, { Component } from 'react'
 import GithubLogo from "../pictures/github-small-logo.png"
 import LinkedIn from "../pictures/LinkedIn-Logo-500x500.png"
 
+//Footer
+//Component used for the Footer section with my contact info
+
 class Footer extends Component {
 
+    //will open new tab with my github account page
     handleGithubClick(e) {
         e.preventDefault()
         window.open('https://github.com/Azbury', "_blank")
     }
 
+    //will open new tab with linkedin account page
     handleLinkedInClick(e) {
         e.preventDefault()
         window.open('https://www.linkedin.com/in/austin-asbury/', "_blank")
@@ -16,6 +21,7 @@ class Footer extends Component {
 
     render() {
         return (
+            //reference used for the header to allow scrolling to this section via click
             <div ref={this.props.scrollReference} className="footer">
                 <h1>Contact Info</h1>
                 <ul>
