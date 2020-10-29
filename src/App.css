@@ -460,4 +460,17 @@
   .projects {
     margin-bottom: 10px;
   }
+
+  .skills-img {
+    display: block;
+    height: 150px;
+    width: auto;
+  }
+
+  .skills-btn {
+    padding: 0px;
+    background-color: transparent;
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
 }
