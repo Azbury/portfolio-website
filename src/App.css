@@ -37,10 +37,15 @@
   }
 }
 
+/*adds a margin between the header and the harrisburg-skyline*/
 .header {
   margin-bottom: 3.5em;
 }
 
+/*
+  fixed position so the header moves down the page as well as setting the z-index to 1
+  so the header appears in fromt of all other elements
+*/
 .navbar {
   z-index: 1;
   position: fixed;
