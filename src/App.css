@@ -300,6 +300,7 @@
   background-size: cover;
 }
 
+/*creates typewrite animation*/
 .typewriter {
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
@@ -316,6 +317,7 @@
     color: white;
 }
 
+/*sets length of typewriter animation*/
 @keyframes typewriter{
   from{width: 0;}
   to{width: 15em;}
@@ -326,13 +328,16 @@
   to{border-right-color: transparent;}
 }
 
+/*adjust positioning on name for tablets and small laptop screens*/
 @media only screen and (max-width: 1400px) and (min-width: 601px) {
   .name {
     padding-top: 100px;
   }
 }
 
+/*CSS rules for mobile devices*/
 @media only screen and (max-width: 600px) {
+  /*makes font size smaller for typewriter effect on mobile*/
   .typewriter {
     animation: typewriter 4s steps(44) 1s 1 normal both,
                blinkTextCursor 500ms steps(44) infinite normal;
