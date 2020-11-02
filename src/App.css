@@ -359,6 +359,7 @@
     to{width: 15em;}
   }
 
+  /*adjust height of skyline*/
   .harrisburg-skyline {
     background-image: url('./pictures/harrisburg-skyline.jpg');
     background-repeat: no-repeat;
@@ -367,6 +368,7 @@
     background-size: cover;
   }
 
+  /*adjusting padding so name is visible*/
   .name {
     padding-top: 1.25em;
     color: #8B4513;
@@ -375,6 +377,7 @@
     background-image: url('./pictures/header.png');
   }
 
+  /*making navbar top item so it goes over top the slideshow on mobile*/
   .navbar {
     z-index: 999;
     position: fixed;
@@ -386,6 +389,7 @@
     padding-bottom: 1em;
   }
 
+  /*making font size smaller for buttons*/
   .navbar-button {
     display: inline-block;
     font-size: 10pt;
@@ -402,6 +406,7 @@
     text-align: center;
   }
 
+  /*adjust margins on sides to fit on mobile*/
   .slideshow-container {
     margin-left: 40px;
     margin-right: 40px;
@@ -415,6 +420,7 @@
     margin-bottom: 1em;
   }
 
+  /*making divider smaller*/
   .divider {
     background-image: url('./pictures/divider.png');
     height: 85px;
@@ -436,6 +442,7 @@
     margin-top: 0px;
   }
 
+  /*removing float so everything appears in a vertical line*/
   .profile-pic {
     float: none;
     display: inline-block;
@@ -467,6 +474,7 @@
     font-size: 125%;
   }
 
+  /*adjust size of videos to fit mobile*/
   .video-wrapper {
     float: none;
     position: relative;
