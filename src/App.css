@@ -57,6 +57,7 @@
   padding-bottom: 1em;
 }
 
+/*keeps footer at the bottom of the page*/
 .footer {
   box-sizing: border-box;
   bottom: 0;
@@ -69,6 +70,7 @@
   font-size: 20px;
 }
 
+/*display the navbar buttons in a horizontal line*/
 .navbar-button {
   display: inline-block;
   font-size: 19pt;
@@ -82,6 +84,7 @@
   outline: none;
 }
 
+/*display contact info a horizontal line*/
 .footer ul li {
   display: inline;
   padding-right: 1em;
@@ -102,6 +105,7 @@
   margin-bottom: 75px;
 }
 
+/*makes the paragraph double spaced*/
 .about-me-description {
   font-family: "Times New Roman", Times, serif;
   font-size: 25px;
@@ -199,10 +203,12 @@
   text-align: left;
 }
 
+/*highlights box around particular skill when mouse hovers over*/
 .skills-btn:hover .skills-img {
   box-shadow: 0 0 0 1px black;
 }
 
+/*highlights box around github link when mouse hovers over*/
 .skills-btn:hover .github-logo-img {
   box-shadow: 0 0 0 1px black;
 }
@@ -221,6 +227,7 @@
   margin-bottom: 75px;
 }
 
+/*makes footer images a circle*/
 .footer-img {
   display: block;
   height: 100px;
@@ -228,6 +235,7 @@
   border-radius: 50%;
 }
 
+/*makes footer button a circle*/
 .footer-btn {
   padding: 0px;
   border-radius: 50%;
@@ -250,6 +258,7 @@
   padding-bottom: 10px;
 }
 
+/*highlights circle around footer image when mouse hovers over*/
 .footer-btn:hover .footer-img {
   box-shadow: 0 0 0 3px black;
 }
@@ -258,6 +267,7 @@
   font-size: 30px;
 }
 
+/*creates project list box*/
 .projects-list {
   position: absolute;
   background: #FFA07A;
@@ -272,6 +282,7 @@
   display: none;
 }
 
+/*adds small arrow to project list box*/
 .projects-list:before{
   content: "";
   position: absolute;
@@ -281,6 +292,7 @@
   border-bottom-color: #FFA07A;
 }
 
+/*adds background images to skyline component*/
 .harrisburg-skyline {
   background-image: url('./pictures/harrisburg-skyline.jpg');
   background-repeat: no-repeat;
