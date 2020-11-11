@@ -6,6 +6,7 @@ import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
 import HarrisburgSkyline from './components/HarrisburgSkyline'
+import Experience from './components/Experience'
 
 class App extends Component {
 
@@ -24,6 +25,7 @@ class App extends Component {
               <Header footerScrollReference={this.footerRef} aboutMeScrollReference={this.aboutMeRef} skillsScrollReference={this.skillsRef} projectsScrollReference={this.projectsRef}/>
               <HarrisburgSkyline/>
               <AboutMe scrollReference={this.aboutMeRef}/>
+              <Experience/>
               <Skills scrollReference={this.skillsRef}/>
               <Projects scrollReference={this.projectsRef}/>
               <Footer scrollReference={this.footerRef}/>
