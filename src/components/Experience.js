@@ -5,7 +5,7 @@ class Experience extends Component {
         return(
             <div className="experience">
                 <div className="divider"/>
-                <h2>Experience</h2>
+                <h2 id="experience-title">Experience</h2>
                 <div className="divider"/>
             </div>
         )
