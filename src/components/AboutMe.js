@@ -12,9 +12,7 @@ class AboutMe extends Component {
                 <div className="divider"></div>
                 <div className="about-myself-box">
                     <div className="about-me-title">About Myself</div>
-                    <div className="pic">
-                        <img className="profile-pic" src={ProfilePic} alt={'profile pic'}/>
-                    </div>
+                    <img className="profile-pic" src={ProfilePic} alt={'profile pic'}/>
                     <div className="paragraph">
                         <p className="about-me-description">My name is Austin Asbury and I recently graduated from the Flatiron School for Software Engineering Bootcamp.
                         I chose the self-paced program because I had prior experience coding from the University of Maryland located in College Park, MD where I majored in Computer Science.

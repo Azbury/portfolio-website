@@ -142,6 +142,28 @@
 #experience-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
+  margin-left: 1em;
+  width: 50%;
+}
+
+#rim-title {
+  font-size: 35px;
+  margin-left: 1em;
+}
+
+#rim {
+  float: right;
+  margin-right: 20em;
+  height: 250px;
+  width: auto;
+}
+
+.job-duties {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  margin-left: 4em;
+  margin-top: 1em;
+  line-height: 2;
 }
 
 .skills {
