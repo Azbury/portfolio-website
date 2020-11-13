@@ -142,13 +142,17 @@
 #experience-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
-  margin-left: 1em;
-  width: 50%;
+  margin-left: .65em;
 }
 
 #rim-title {
   font-size: 35px;
   margin-left: 1em;
+}
+
+#rim-position-title {
+  font-size: 30px;
+  margin-left: 2em;
 }
 
 #rim {
