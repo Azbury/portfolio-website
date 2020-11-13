@@ -156,16 +156,17 @@
 }
 
 #rim {
-  float: right;
-  margin-right: 20em;
+  float: left;
+  margin-left: 5em;
+  margin-right: 5em;
   height: 250px;
   width: auto;
 }
 
 .job-duties {
   font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  margin-left: 4em;
+  font-size: 20px;
+  margin-left: 20em;
   margin-top: 1em;
   line-height: 2;
 }
