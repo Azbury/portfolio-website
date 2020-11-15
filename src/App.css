@@ -146,12 +146,14 @@
 }
 
 #rim-title {
-  font-size: 30px;
-  margin-left: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin-left: .85em;
 }
 
 #rim-position-title {
-  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
   margin-left: 2em;
 }
 
@@ -159,15 +161,14 @@
   float: left;
   margin-left: 5em;
   margin-right: 5em;
-  margin-top: 4em;
   height: 250px;
   width: auto;
 }
 
 .job-duties {
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
-  margin-left: 20em;
+  font-size: 25px;
+  margin-left: 15em;
   margin-top: 1em;
   line-height: 2;
 }

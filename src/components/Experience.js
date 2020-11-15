@@ -8,9 +8,9 @@ class Experience extends Component {
                 <div className="divider"/>
                 <div className="about-myself-box">
                     <h2 id="experience-title">Experience</h2>
-                    <img id="rim" src={RIM} alt='rim'/>
                     <h2 id="rim-title">Ritter Insurance Marketing</h2>
                     <h2 id="rim-position-title">Jr. UX/UI Developer</h2>
+                    <img id="rim" src={RIM} alt='rim'/>
                     <ul className="job-duties">
                         <li>Designing, testing, and modifying websites and digital media within a team environment.</li>
                         <li>Assumes responsibility for all website testing and design modification.</li>
