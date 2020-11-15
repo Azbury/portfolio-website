@@ -146,12 +146,12 @@
 }
 
 #rim-title {
-  font-size: 35px;
+  font-size: 30px;
   margin-left: 1em;
 }
 
 #rim-position-title {
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 2em;
 }
 
@@ -159,6 +159,7 @@
   float: left;
   margin-left: 5em;
   margin-right: 5em;
+  margin-top: 4em;
   height: 250px;
   width: auto;
 }
