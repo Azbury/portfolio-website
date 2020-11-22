@@ -27,6 +27,14 @@ class Header extends Component {
         })
     }
 
+    //will scroll to experience section via click
+    handleExperienceClick(e) {
+        e.preventDefault()
+        this.props.experienceScrollReference.current.scrollIntoView({
+            behavior: "smooth"
+        })
+    }
+
     //will scroll to top of the page via click
     handleHomeClick(e) {
         e.preventDefault()
@@ -82,6 +90,14 @@ class Header extends Component {
                         onClick={(event) => this.handleAboutMeClick(event)}
                         id={"about-myself"}>
                         About Myself
+                    </button>
+                    <button
+                        className="navbar-button"
+                        onMouseEnter={() => this.mouse("experience")}
+                        onMouseLeave={() => this.mouseOut("experience")}
+                        onClick={(event) => this.handleExperienceClick(event)}
+                        id={"experience"}>
+                        Experience
                     </button>
                     <button 
                         className="navbar-button"
