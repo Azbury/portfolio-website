@@ -447,8 +447,18 @@
     text-align: center;
   }
 
+  #experience-title {
+    margin-left: 0;
+  }
+
+  #rim-title {
+    margin-left: 0;
+  }
+
   #rim {
     float: none;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .experience-box {
@@ -457,6 +467,8 @@
 
   .job-duties {
     margin-left: 0;
+    font-size: 125%;
+    text-align: left;
   }
 
   /*adjust margins on sides to fit on mobile*/
