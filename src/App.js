@@ -23,7 +23,11 @@ class App extends Component {
     render () {
         return (
           <div className="App">
-              <Header footerScrollReference={this.footerRef} aboutMeScrollReference={this.aboutMeRef} skillsScrollReference={this.skillsRef} projectsScrollReference={this.projectsRef}/>
+              <Header footerScrollReference={this.footerRef}
+                      aboutMeScrollReference={this.aboutMeRef}
+                      skillsScrollReference={this.skillsRef} 
+                      projectsScrollReference={this.projectsRef}
+                      experienceScrollReference={this.experienceRef}/>
               <HarrisburgSkyline/>
               <AboutMe scrollReference={this.aboutMeRef}/>
               <Experience scrollReference={this.experienceRef}/>
