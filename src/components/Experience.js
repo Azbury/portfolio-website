@@ -6,7 +6,7 @@ class Experience extends Component {
         return(
             <div ref={this.props.scrollReference}className="experience">
                 <div className="divider"/>
-                <div className="about-myself-box">
+                <div className="experience-box">
                     <h2 id="experience-title">Experience</h2>
                     <h2 id="rim-title">Ritter Insurance Marketing</h2>
                     <img id="rim" src={RIM} alt='rim'/>

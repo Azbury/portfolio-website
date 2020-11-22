@@ -139,6 +139,13 @@
   margin-right: 40px;
 }
 
+.experience-box {
+  text-align: left;
+  width: 100%;
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
 #experience-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
@@ -438,6 +445,18 @@
 
   .about-myself-box {
     text-align: center;
+  }
+
+  #rim {
+    float: none;
+  }
+
+  .experience-box {
+    text-align: center;
+  }
+
+  .job-duties {
+    margin-left: 0;
   }
 
   /*adjust margins on sides to fit on mobile*/
