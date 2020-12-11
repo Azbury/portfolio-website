@@ -11,6 +11,7 @@ class Experience extends Component {
                     <h2 id="rim-title">Ritter Insurance Marketing</h2>
                     <img id="rim" src={RIM} alt='rim'/>
                     <h2 id="rim-position-title">Jr. UX/UI Developer</h2>
+                    <h2>November 2020 - Present</h2>
                     <ul className="job-duties">
                         <li>Designing, testing, and modifying websites and digital media within a team environment.</li>
                         <li>Assumes responsibility for all website testing and design modification.</li>
