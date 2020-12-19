@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-This website was built using React.js, HTML, and CSS. This portfolio showcases my as I progress through my career as a UX/ UI Developer.
+This website was built using React.js, HTML, and CSS. This portfolio showcases work my as I progress through my career as a UX/ UI Developer.
 
 ## Usage
 
