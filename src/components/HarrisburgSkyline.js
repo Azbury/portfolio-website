@@ -7,8 +7,9 @@ class HarrisburgSkyline extends Component {
     render() {
         return (
             <div>
+                <div ref={this.props.scrollReference} className="name">Austin Asbury</div>
                 <div className="harrisburg-skyline">
-                    <p className="typewriter">Hi, I'm a Full Stack Developer</p>
+                    <p className="typewriter">Hi, I'm a UX/ UI Developer</p>
                 </div>
                 <div className="divider"></div>
             </div>

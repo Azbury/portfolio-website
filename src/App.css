@@ -46,6 +46,17 @@
   fixed position so the header moves down the page as well as setting the z-index to 1
   so the header appears in fromt of all other elements
 */
+.dropdowns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 100px
+}
+
+.navbar-icon {
+  margin-left: 10px
+}
+
 .navbar {
   z-index: 1;
   position: fixed;
@@ -91,7 +102,7 @@
 }
 
 .name {
-  padding-top: .25em;
+  padding-top: .5em;
   color: #8B4513;
   font-size: 8em;
   font-family: "Courier New", Courier, monospace;
