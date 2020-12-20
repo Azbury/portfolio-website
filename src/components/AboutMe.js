@@ -14,12 +14,13 @@ class AboutMe extends Component {
                     <div className="about-me-title">About Myself</div>
                     <img className="profile-pic" src={ProfilePic} alt={'profile pic'}/>
                     <div className="paragraph">
-                        <p className="about-me-description">My name is Austin Asbury and I recently graduated from the Flatiron School for Software Engineering Bootcamp.
-                        I chose the self-paced program because I had prior experience coding from the University of Maryland located in College Park, MD where I majored in Computer Science.
-                        Completing the self-paced program meant I had no one to monitor my progress through the course work so I had to learn how to manage my time properly to complete the school
-                        work and meet deadlines that I set for myself while working full-time. This gave me a ton of practice for what it would be like to be working at a job with minimal supervision
-                        and prepared me to become a developer that meets and exceeds deadlines given to them. I will do whatever it takes to make sure a project is completed on time, without
-                        compromising on quality.
+                        <p className="about-me-description">My name is Austin Asbury and I am a Jr. UX/ UI Developer at Ritter Insurance Marketing.
+                        I studied computer science at the University of Maryland as well as completed the Flatiron School for Software Engineering bootcamp.
+                        Skiing and video games are by far my two favorites hobbies and if I am not coding you will either see me on the slopes, or in a
+                        competitive video game.
+                        Working from home with my two cats Momo and Yuumi has been an experience that I have been looking forward to since I first started studying
+                        computer science back in college. I am an extremely motivated and hard working individual who requires minimal supervision to complete work
+                        at a high level. It feels amazing to be able to wake up everyday and get to do something I love and enjoy.
                         </p>
                     </div>
                 </div>
