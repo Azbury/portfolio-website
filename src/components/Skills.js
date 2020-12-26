@@ -61,7 +61,6 @@ class Skills extends Component {
         return (
             //scroll reference for the skill section
             <div ref={this.props.scrollReference}>
-                <div className="divider"></div>
                 <div className="skills">
                     <h2 className="skills-title">Skills</h2>
                         <div className="skills-list">
@@ -150,7 +149,6 @@ class Skills extends Component {
                                 </p>
                             </div>
                         </div>
-                        <div className="divider"></div>
                 </div>
             </div>
         )

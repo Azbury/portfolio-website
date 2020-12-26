@@ -43,7 +43,6 @@ class Projects extends Component {
         return (
             //scroll reference for the project section
             <div ref={this.props.scrollReference} className="projects">
-                <div className="divider"></div>
                 <h2 className="projects-title">Projects</h2>
                 <div className="slideshow-container">
                     <Slide autoplay={false}>

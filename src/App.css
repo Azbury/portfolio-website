@@ -57,17 +57,6 @@
   margin-left: 10px
 }
 
-.navbar {
-  z-index: 1;
-  position: fixed;
-  width: 100%;
-  background-image: url('./pictures/divider.png');
-  margin-top: 0px;
-  margin-left: 0px;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 /*keeps footer at the bottom of the page*/
 .footer {
   box-sizing: border-box;
@@ -75,7 +64,7 @@
   width: 100%;
   justify-content: center;
   padding: .15em;
-  background-image: url('./pictures/header.png');
+  background-color:#ffffb3; 
   clear: both;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
@@ -106,14 +95,14 @@
   color: #8B4513;
   font-size: 8em;
   font-family: "Courier New", Courier, monospace;
-  background-image: url('./pictures/header.png');
+  background-color: #FFE4C4; 
 }
 
 .about-myself-box {
   text-align: left;
   width: 100%;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  background-color: #FFE4C4;
+  padding: 100px 0px;
 }
 
 /*makes the paragraph double spaced*/
@@ -130,11 +119,7 @@
   font-size: 55px;
   margin-left: 1em;
   width: 50%;
-}
-
-.divider {
-  background-image: url('./pictures/divider.png');
-  height: 100px;
+  margin-top: 0;
 }
 
 .profile-pic {
@@ -153,14 +138,14 @@
 .experience-box {
   text-align: left;
   width: 100%;
-  margin-top: 75px;
-  margin-bottom: 75px;
+  background-color: #ffddb3;
 }
 
 #experience-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
   margin-left: .65em;
+  margin-top: 0;
 }
 
 #rim-title {
@@ -189,20 +174,22 @@
   margin-left: 17.5em;
   margin-top: 1em;
   line-height: 2;
+  margin-bottom: 0;
 }
 
 .skills {
   text-align: center;
-  margin-top: 100px;
-}
-
-.skills-list {
-  margin-bottom: 100px;
+  background-color:  #FFE4C4;
 }
 
 .skills-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
+  margin-top: 0;
+}
+
+.projects {
+  background-color: #ffddb3;
 }
 
 .react-player {
@@ -268,15 +255,12 @@
 .projects-title {
   font-size: 50px;
   font-family: "Lucida Console", Monaco, monospace;
+  margin-top: 0;
 }
 
 .project-title {
   padding-right: 5%;
   font-size: 30px;
-}
-
-.projects {
-  margin-bottom: 75px;
 }
 
 /*makes footer images a circle*/
@@ -426,19 +410,7 @@
     color: #8B4513;
     font-size: 5em;
     font-family: "Courier New", Courier, monospace;
-    background-image: url('./pictures/header.png');
-  }
-
-  /*making navbar top item so it goes over top the slideshow on mobile*/
-  .navbar {
-    z-index: 999;
-    position: fixed;
-    width: 100%;
-    background-image: url('./pictures/divider.png');
-    margin-top: 0px;
-    margin-left: 0px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    background-color: #FFE4C4; 
   }
 
   /*making font size smaller for buttons*/
@@ -494,12 +466,6 @@
 
   .header {
     margin-bottom: 1em;
-  }
-
-  /*making divider smaller*/
-  .divider {
-    background-image: url('./pictures/divider.png');
-    height: 85px;
   }
 
   .about-me-title {

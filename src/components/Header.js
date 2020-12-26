@@ -7,6 +7,8 @@ import IconButton from '@material-ui/core/IconButton';
 import CodeIcon from '@material-ui/icons/Code';
 import BuildIcon from '@material-ui/icons/Build';
 import PersonIcon from '@material-ui/icons/Person';
+import PhoneIcon from '@material-ui/icons/Phone';
+import DeviceHubIcon from '@material-ui/icons/DeviceHub';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -46,7 +48,7 @@ export default function Header(props) {
             <IconButton onClick={(e) => { 
                                     e.preventDefault()
                                     props.aboutMeScrollReference.current.scrollIntoView({
-                                        behavior: "smooth"
+                                        behavior: "smooth",
                                     }) 
                                 }} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
               About Myself <PersonIcon fontSize="large" className="navbar-icon"/>
@@ -65,7 +67,7 @@ export default function Header(props) {
                                         behavior: "smooth"
                                     }) 
                                 }} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-              Skills <CodeIcon fontSize="large" className="navbar-icon"/>
+              Skills <DeviceHubIcon fontSize="large" className="navbar-icon"/>
             </IconButton>
             <IconButton onClick={(e) => { 
                                     e.preventDefault()
@@ -81,7 +83,7 @@ export default function Header(props) {
                                           behavior: "smooth"
                                     }) 
                                 }} edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-              Contact Info <PersonIcon fontSize="large" className="navbar-icon"/>
+              Contact Info <PhoneIcon fontSize="large" className="navbar-icon"/>
             </IconButton>
           </div>
         </Toolbar>

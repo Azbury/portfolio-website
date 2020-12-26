@@ -9,9 +9,8 @@ class AboutMe extends Component {
         return (
             //reference used for the header to allow scrolling to this section via click
             <div ref={this.props.scrollReference} className="about-me">
-                <div className="divider"></div>
                 <div className="about-myself-box">
-                    <div className="about-me-title">About Myself</div>
+                    <h2 className="about-me-title">About Myself</h2>
                     <img className="profile-pic" src={ProfilePic} alt={'profile pic'}/>
                     <div className="paragraph">
                         <p className="about-me-description">My name is Austin Asbury and I am a Jr. UX/ UI Developer at Ritter Insurance Marketing.
@@ -24,7 +23,6 @@ class AboutMe extends Component {
                         </p>
                     </div>
                 </div>
-                <div className="divider"></div>
             </div>
         )
     }

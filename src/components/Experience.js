@@ -4,8 +4,7 @@ import RIM from '../pictures/rim.png'
 class Experience extends Component {
     render() {
         return(
-            <div ref={this.props.scrollReference}className="experience">
-                <div className="divider"/>
+            <div ref={this.props.scrollReference} className="experience">
                 <div className="experience-box">
                     <h2 id="experience-title">Experience</h2>
                     <h2 id="rim-title">Ritter Insurance Marketing</h2>
@@ -22,7 +21,6 @@ class Experience extends Component {
                         <li>Assumes responsibility for understanding current and new web technologies.</li>
                     </ul>
                 </div>
-                <div className="divider"/>
             </div>
         )
     }

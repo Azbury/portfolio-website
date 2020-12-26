@@ -11,7 +11,6 @@ class HarrisburgSkyline extends Component {
                 <div className="harrisburg-skyline">
                     <p className="typewriter">Hi, I'm a UX/ UI Developer</p>
                 </div>
-                <div className="divider"></div>
             </div>
         )
     }
