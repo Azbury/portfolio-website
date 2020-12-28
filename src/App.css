@@ -57,6 +57,14 @@
   margin-left: 10px
 }
 
+.toolbar {
+  justify-content: flex-end;
+}
+
+#menu-button {
+  display: none;
+}
+
 /*keeps footer at the bottom of the page*/
 .footer {
   box-sizing: border-box;
@@ -68,20 +76,6 @@
   clear: both;
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-}
-
-/*display the navbar buttons in a horizontal line*/
-.navbar-button {
-  display: inline-block;
-  font-size: 19pt;
-  font-weight: bold;
-  border: 0;
-  padding: 0;
-  font-family: "Lucida Console", Monaco, monospace;
-  background: transparent;
-  padding-left: 3em;
-  padding-right: 3em;
-  outline: none;
 }
 
 /*display contact info a horizontal line*/
@@ -103,6 +97,7 @@
   width: 100%;
   background-color: #FFE4C4;
   padding: 100px 0px;
+  border-bottom: solid;
 }
 
 /*makes the paragraph double spaced*/
@@ -117,7 +112,7 @@
 .about-me-title {
   font-family: "Lucida Console", Monaco, monospace;
   font-size: 55px;
-  margin-left: 1em;
+  margin-left: .65em;
   width: 50%;
   margin-top: 0;
 }
@@ -138,11 +133,13 @@
 .experience-box {
   text-align: left;
   width: 100%;
-  background-color: #ffddb3;
+  background-color:#FFE4C4;
+  padding: 100px 0px;
+  border-bottom: solid;
 }
 
 #experience-title {
-  font-size: 50px;
+  font-size: 55px;
   font-family: "Lucida Console", Monaco, monospace;
   margin-left: .65em;
   margin-top: 0;
@@ -151,7 +148,7 @@
 #rim-title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin-left: .85em;
+  margin-left: 1em;
 }
 
 #rim-position-title {
@@ -180,6 +177,8 @@
 .skills {
   text-align: center;
   background-color:  #FFE4C4;
+  padding: 100px 0px;
+  border-bottom: solid;
 }
 
 .skills-title {
@@ -189,7 +188,9 @@
 }
 
 .projects {
-  background-color: #ffddb3;
+  background-color: #FFE4C4;
+  padding: 100px 0px;
+  border-bottom: solid;
 }
 
 .react-player {
@@ -371,6 +372,16 @@
   }
 }
 
+@media only screen and (max-width: 1050px) {
+  .dropdowns {
+    display: none;
+  }
+
+  #menu-button {
+    display: inline-flex;
+  }
+}
+
 /*CSS rules for mobile devices*/
 @media only screen and (max-width: 600px) {
   /*makes font size smaller for typewriter effect on mobile*/
@@ -406,7 +417,7 @@
 
   /*adjusting padding so name is visible*/
   .name {
-    padding-top: 1.25em;
+    padding-top: .75em;
     color: #8B4513;
     font-size: 5em;
     font-family: "Courier New", Courier, monospace;

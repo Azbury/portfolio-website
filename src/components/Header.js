@@ -9,6 +9,7 @@ import BuildIcon from '@material-ui/icons/Build';
 import PersonIcon from '@material-ui/icons/Person';
 import PhoneIcon from '@material-ui/icons/Phone';
 import DeviceHubIcon from '@material-ui/icons/DeviceHub';
+import MenuIcon from '@material-ui/icons/Menu';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -86,6 +87,14 @@ export default function Header(props) {
               Contact Info <PhoneIcon fontSize="large" className="navbar-icon"/>
             </IconButton>
           </div>
+          <IconButton onClick={(e) => { 
+                                  e.preventDefault()
+                                  props.homeScrollReference.current.scrollIntoView({
+                                      behavior: "smooth"
+                                  }) 
+                              }} className={classes.menuButton} color="inherit" aria-label="menu" id="menu-button">
+            <MenuIcon fontSize="large"/>
+          </IconButton>
         </Toolbar>
       </AppBar>
     </div>
