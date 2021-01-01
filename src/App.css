@@ -97,7 +97,7 @@
   width: 100%;
   background-color: #FFE4C4;
   padding: 100px 0px;
-  border-bottom: solid;
+  border-bottom: solid 1px;
 }
 
 /*makes the paragraph double spaced*/
@@ -135,7 +135,7 @@
   width: 100%;
   background-color:#FFE4C4;
   padding: 100px 0px;
-  border-bottom: solid;
+  border-bottom: solid 1px;
 }
 
 #experience-title {
@@ -178,7 +178,7 @@
   text-align: center;
   background-color:  #FFE4C4;
   padding: 100px 0px;
-  border-bottom: solid;
+  border-bottom: solid 1px;
 }
 
 .skills-title {
