@@ -8,7 +8,7 @@ class AboutMe extends Component {
     render() {
         return (
             //reference used for the header to allow scrolling to this section via click
-            <div ref={this.props.scrollReference} className="about-me">
+            <div ref={this.props.scrollReference} className="about-me" id="about-me">
                 <div className="about-myself-box">
                     <h2 className="about-me-title">About Myself</h2>
                     <img className="profile-pic" src={ProfilePic} alt={'profile pic'}/>

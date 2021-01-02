@@ -13,12 +13,9 @@ import MenuIcon from '@material-ui/icons/Menu';
 import clsx from 'clsx';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
-import InboxIcon from '@material-ui/icons/MoveToInbox';
-import MailIcon from '@material-ui/icons/Mail';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -38,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   list: {
-    width: "100vw",
+    width: "50vw",
   },
   fullList: {
     width: 'auto',
@@ -73,21 +70,42 @@ export default function Header(props) {
       onKeyDown={toggleDrawer(anchor, false)}
     >
       <List>
-        {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+          <ListItem button key={'Home'} onClick={() => {
+                window.scrollTo(0, 0)
+            }}>
+            <ListItemIcon><HomeIcon/></ListItemIcon>
+            <ListItemText primary={'Home'}/>
           </ListItem>
-        ))}
-      </List>
-      <Divider />
-      <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
-            <ListItemText primary={text} />
+          <ListItem button key={'About Myself'} onClick={() => {
+                window.scrollTo(0, 350)
+            }}>
+            <ListItemIcon><PersonIcon/></ListItemIcon>
+            <ListItemText primary={'About Myself'}/>
           </ListItem>
-        ))}
+          <ListItem button key={'Experience'} onClick={() => {
+                window.scrollTo(0, 1800)
+            }}>
+            <ListItemIcon><BuildIcon/></ListItemIcon>
+            <ListItemText primary={'Experience'}/>
+          </ListItem>
+          <ListItem button key={'Skills'} onClick={() => {
+                window.scrollTo(0, 3300)
+            }}>
+            <ListItemIcon><DeviceHubIcon/></ListItemIcon>
+            <ListItemText primary={'Skills'}/>
+          </ListItem>
+          <ListItem button key={'Projects'} onClick={() => {
+                window.scrollTo(0, 4525)
+            }}>
+            <ListItemIcon><CodeIcon/></ListItemIcon>
+            <ListItemText primary={'Projects'}/>
+          </ListItem>
+          <ListItem button key={'Contact Info'} onClick={() => {
+                window.scrollTo(0, 6000)
+            }}>
+            <ListItemIcon><PhoneIcon/></ListItemIcon>
+            <ListItemText primary={'Contact Info'}/>
+          </ListItem>
       </List>
     </div>
   );
