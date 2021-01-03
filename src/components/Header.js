@@ -83,19 +83,19 @@ export default function Header(props) {
             <ListItemText primary={'About Myself'}/>
           </ListItem>
           <ListItem button key={'Experience'} onClick={() => {
-                window.scrollTo(0, 1800)
+                window.scrollTo(0, 1875)
             }}>
             <ListItemIcon><BuildIcon/></ListItemIcon>
             <ListItemText primary={'Experience'}/>
           </ListItem>
           <ListItem button key={'Skills'} onClick={() => {
-                window.scrollTo(0, 3300)
+                window.scrollTo(0, 3400)
             }}>
             <ListItemIcon><DeviceHubIcon/></ListItemIcon>
             <ListItemText primary={'Skills'}/>
           </ListItem>
           <ListItem button key={'Projects'} onClick={() => {
-                window.scrollTo(0, 4525)
+                window.scrollTo(0, 4640)
             }}>
             <ListItemIcon><CodeIcon/></ListItemIcon>
             <ListItemText primary={'Projects'}/>
