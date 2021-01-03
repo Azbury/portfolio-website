@@ -461,6 +461,7 @@
 
   .job-duties {
     margin-left: 0;
+    margin-right: 10px;
     font-size: 125%;
     text-align: left;
   }
@@ -491,8 +492,8 @@
     font-family: "Times New Roman", Times, serif;
     font-size: 125%;
     line-height: 2;
-    margin-left: 0px;
     margin-top: 0px;
+    margin: 0px 10px;
   }
 
   /*removing float so everything appears in a vertical line*/
